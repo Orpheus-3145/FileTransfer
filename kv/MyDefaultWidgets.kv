@@ -1,0 +1,91 @@
+#:import Config kivy.config.Config
+
+#:set ORANGE_RGBA app.colors["orange_rgba"]
+#:set BLUE_RGBA app.colors["blue_rgba"]
+#:set GREY_RGBA app.colors["grey_rgba"]
+#:set LIGHTNORMGREEN_RGBA app.colors["lightnormgreen_rgba"]
+#:set GREEN_RGBA app.colors["green_rgba"]
+#:set RED_RGBA app.colors["red_rgba"]
+#:set DARKGREY_RGBA app.colors["darkgrey_rgba"]
+
+#:set FONT_NAME Config["app"]["font_4"]
+#:set DEFAULT_FONT_SIZE Config.getint("kivy", "default_font_size")
+
+<MyDefaultLabel>:
+    bkg_color: ORANGE_RGBA
+    border_color: DARKGREY_RGBA
+    color: DARKGREY_RGBA
+    text_size: self.width - 20, self.height - 20
+    font_size: DEFAULT_FONT_SIZE
+    font_name: FONT_NAME
+    valign: "center"
+    halign: "center"
+
+
+<MyAppearingLabel>:
+    opacity: 0
+    italic: True
+
+
+<MyDefaultButton>:
+    bkg_color: BLUE_RGBA
+    background_color: self.bkg_color
+    background_normal: ""
+    background_down: ""
+    color: 1, 1, 1, 1
+    font_size: DEFAULT_FONT_SIZE
+    font_name: FONT_NAME
+    text_size: self.size
+    valign: "center"
+    halign: "center"
+
+
+<MyDefaultBoxLayout@BoxLayout>:
+    spacing: 5
+    padding: 5
+    orientation: "vertical"
+
+
+<MyDefaultGridLayout@GridLayout>:
+    spacing: 5
+    padding: 5
+
+
+<BackgroundLabel>:
+    canvas.before:
+        Color:
+            rgba: self.border_color
+
+        Rectangle:
+            pos: self.x, self.y
+            size: self.width, self.height
+
+        Color:
+            rgba: self.bkg_color
+
+        Rectangle:
+            pos: self.x + 2, self.y + 2
+            size: self.width - 4, self.height - 4
+
+        Color:
+            rgba: self.border_color
+
+        Rectangle:
+            pos: self.x + 4, self.y + 4
+            size: self.width - 8, self.height - 8
+
+        Color:
+            rgba: self.bkg_color
+
+        Rectangle:
+            pos: self.x + 6, self.y + 6
+            size: self.width - 12, self.height - 12
+
+<BackgroundButton>:
+    canvas.before:
+        Color:
+            rgba: GREY_RGBA
+
+        Rectangle:
+            pos: self.x - 2, self.y - 2
+            size: self.width + 4, self.height + 4
