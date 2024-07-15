@@ -1,0 +1,40 @@
+2024-01-09 20:05:26,943 | INFO     | [FileTransferApp]: ################################################################################
+2024-01-09 20:05:26,944 | INFO     | [FileTransferApp]: applicazione avviata
+2024-01-09 20:05:26,944 | INFO     | [FileTransfer   ]: ********************************************************************************
+2024-01-09 20:05:26,944 | INFO     | [FileTransfer   ]: creata un'istanza di FileTransfer
+2024-01-09 20:06:00,760 | INFO     | [FileTransfer   ]: SRC e DST selezionati correttamente
+2024-01-09 20:06:15,309 | INFO     | [FileTransfer   ]: SRC e DST espansi correttamente
+2024-01-09 20:06:15,310 | INFO     | [FileTransfer   ]: SRC: D:\My Documents
+2024-01-09 20:06:15,310 | INFO     | [FileTransfer   ]: DST: E:\My Documents
+2024-01-09 20:06:40,519 | INFO     | [FileTransfer   ]: analisi terminata
+2024-01-09 20:44:46,745 | INFO     | [FileTransfer   ]: SRC e DST espansi correttamente
+2024-01-09 20:44:46,745 | INFO     | [FileTransfer   ]: SRC: D:\My Documents
+2024-01-09 20:44:46,746 | INFO     | [FileTransfer   ]: DST: E:\My Documents
+2024-01-09 20:45:06,842 | INFO     | [FileTransfer   ]: analisi terminata
+2024-01-09 20:46:43,327 | INFO     | [FileTransfer   ]: SRC e DST espansi correttamente
+2024-01-09 20:46:43,328 | INFO     | [FileTransfer   ]: SRC: D:\My Documents
+2024-01-09 20:46:43,328 | INFO     | [FileTransfer   ]: DST: E:\My Documents
+2024-01-09 20:47:03,720 | INFO     | [FileTransfer   ]: analisi terminata
+2024-01-09 20:50:36,331 | INFO     | [FileTransfer   ]: trasferimento terminato, errori verificatisi: 0
+2024-01-09 20:50:46,184 | INFO     | [FileTransfer   ]: chiusura istanza di FileTransfer
+2024-01-09 20:50:46,184 | INFO     | [FileTransfer   ]: ********************************************************************************
+2024-01-09 20:50:46,184 | INFO     | [FileTransferApp]: chiusura applicazione
+2024-01-09 20:50:46,184 | INFO     | [FileTransferApp]: ################################################################################
+2024-01-09 20:51:50,452 | INFO     | [FileTransferApp]: ################################################################################
+2024-01-09 20:51:50,453 | INFO     | [FileTransferApp]: applicazione avviata
+2024-01-09 20:51:50,453 | INFO     | [FileTransfer   ]: ********************************************************************************
+2024-01-09 20:51:50,453 | INFO     | [FileTransfer   ]: creata un'istanza di FileTransfer
+2024-01-09 20:51:57,152 | INFO     | [FileTransfer   ]: SRC e DST selezionati correttamente
+2024-01-09 20:52:48,796 | INFO     | [FileTransfer   ]: SRC e DST espansi correttamente
+2024-01-09 20:52:48,796 | INFO     | [FileTransfer   ]: SRC: D:\My Documents
+2024-01-09 20:52:48,796 | INFO     | [FileTransfer   ]: DST: E:\My Documents
+2024-01-09 20:53:09,836 | INFO     | [FileTransfer   ]: analisi terminata
+2024-01-09 21:02:24,415 | INFO     | [FileTransfer   ]: SRC e DST espansi correttamente
+2024-01-09 21:02:24,415 | INFO     | [FileTransfer   ]: SRC: D:\My Documents
+2024-01-09 21:02:24,415 | INFO     | [FileTransfer   ]: DST: E:\My Documents
+2024-01-09 21:02:40,643 | INFO     | [FileTransfer   ]: analisi terminata
+2024-01-09 21:08:16,763 | INFO     | [FileTransfer   ]: trasferimento terminato, errori verificatisi: 0
+2024-01-09 21:08:22,696 | INFO     | [FileTransfer   ]: chiusura istanza di FileTransfer
+2024-01-09 21:08:22,696 | INFO     | [FileTransfer   ]: ********************************************************************************
+2024-01-09 21:08:22,696 | INFO     | [FileTransferApp]: chiusura applicazione
+2024-01-09 21:08:22,696 | INFO     | [FileTransferApp]: ################################################################################

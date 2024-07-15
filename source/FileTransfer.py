@@ -7,40 +7,10 @@ import time
 from datetime import datetime
 import configparser
 import inspect
+from Exceptions import *
 
 Config = configparser.ConfigParser()
-Config.read("settings\\config_filetransfer.ini")
-
-
-class FileTransferError(Exception):
-    """Eccezione del modulo FileTransfer.py """
-    def __init__(self, error_text):
-        self.error_text = error_text  # creo la proprietà di classe per avere maggiori informazioni sull'errore verificatosi
-        super().__init__()
-
-    def __str__(self):
-        return self.error_text
-
-
-class SelectingFoldersError(FileTransferError):
-    """Eccezione sollevata in fase di selezione dei percorsi SRC e DST, nel caso in cui uno di essi non sia valido"""
-    pass
-
-
-class ComparingFoldersError(FileTransferError):
-    """Eccezione sollevata in fase di analisi di SRC e DST"""
-    pass
-
-
-class TransferingFilesError(FileTransferError):
-    """Eccezione sollevata in caso di errore durante il trasferimento (copia/rimuovi file/cartella)"""
-    pass
-
-
-class ParserError(FileTransferError):
-    """Eccezione sollevata in caso di errore relativo ad operazioni di accesso/modifica al file compare tramite un'istanza
-    di CompareFileParser()"""
-    pass
+Config.read("D:\\MyPython\\FileTransfer\\dist\\FileTransfer\\_internal\\settings\\config_filetransfer.ini")
 
 
 class FileTransfer:
@@ -68,28 +38,21 @@ class FileTransfer:
         """Verifica i due percorsi file passati in argomento, folder_src e folder_dst, se rispettano determinati
         le indicazioni allor possono essere salvati e si può procedere all'analisi valorizzando _ready_for_select a True"""
         self.reset_flags()  # inizio da zero il processo, resetto tutto a False
-
         if not (folder_src != "" and folder_dst != ""):     # devono essere entrambi <> ""
             raise SelectingFoldersError("Non hai inserito {}".format("l'origine e la destinazione" if folder_src == "" and folder_dst == "" else "uno dei due elementi!"))
-
         elif os.path.isfile(folder_src) or os.path.isfile(folder_dst):      # devono essere delle cartelle
             raise SelectingFoldersError("Selezione non valida")
-
         elif folder_src == folder_dst:                                      # devono essere diversi
             raise SelectingFoldersError("I due percorsi sono uguali")
-
         elif os.path.basename(folder_src) != os.path.basename(folder_dst):  # devono condividere il nome della cartella alla fine del percorso
             raise SelectingFoldersError("I due punti di partenza non hanno lo stesso nome")
-
         elif len(os.listdir(folder_src)) == 0:                              # la cartella di origine non può essere vuota
             raise SelectingFoldersError("La cartella {} è vuota".format(folder_src))
-
         else:
             self.common_folder = os.path.basename(folder_src)
             self.base_folder_src = os.path.dirname(folder_src)
             self.base_folder_dst = os.path.dirname(folder_dst)
             self._ready_for_select = True
-
         logging.info("[%-15s]: SRC e DST selezionati correttamente", "FileTransfer")
 
     def set_folders(self):
@@ -473,7 +436,8 @@ class CompareFileParser:
 
     def create_last_info_transfer(self):
         """In fase di trasferimento, crea una stringa terminale contenente le info di riepilogo del trasferimento"""
-        return "Tempo di esecuzione trasferimento: {}\nErrori durante il trasferimento: {}".format(Tools.format_sec_min_hour(self.time_transfer), self.err_transfer_count)
+        return "Tempo di esecuzione trasferimento: {}\nErrori durante il trasferimento: {}".format(
+            Tools.format_sec_min_hour(self.time_transfer), self.err_transfer_count)
 
     def reset_all_counters(self):
         """Nel momento in cui si fa una nuova anlisi vengono resettati a zero tutti i progressivi"""

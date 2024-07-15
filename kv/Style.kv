@@ -3,6 +3,9 @@
 #:import get_perc_font Tools.get_perc_font
 
 #:set DEFAULT_FONT_SIZE Config.getint("kivy", "default_font_size")
+#:set BK_IMAGE Config["app"]["bk_image"]
+#:set FT_LOGO Config["app"]["ft_logo"]
+#:set DEFAULT_FONT_SIZE Config.getint("kivy", "default_font_size")
 #:set FONT_NAME Config["app"]["font_4"]
 #:set ORANGE_RGBA app.colors["orange_rgba"]
 #:set BLUE_RGBA app.colors["blue_rgba"]
@@ -19,7 +22,7 @@
         canvas:
             Rectangle:
                 size: self.size
-                source: 'media\\logos\\tech_3.jpg'
+                source: BK_IMAGE
 
         MyDefaultLabel:
             text: "FILE TRANSFER"
@@ -47,7 +50,7 @@
                 Rectangle:
                     pos: self.pos
                     size: self.size
-                    source: 'media\\logos\\info logo.png'
+                    source: FT_LOGO
 
         MyDefaultButton:
             text: "ORIGINE"
