@@ -1,0 +1,18 @@
+| |# standardizzare il dict contenete le info da inserire in compare.txt
+|X|# aggiungere modalità test senza modifiche al filesystem
+| |# caratterizzare meglio le eccezioni e gestire quelle di tipo ToolsUtiliesError su FileTransfer
+| |# aggiungere azione in corso a video durante il trasferimento
+| |# aggiungere animazione durante l'analisi dei percorsi
+| |# differenza tempo di analisi quando la eseguo più volte
+| |# gli sfondi/immagini devono essere salvati nel file ini
+| |# errore nel file log e compare
+| |# info del trasferimento inserite prima di quelle relative all'analisi nel file compare
+| |# errori durante il trasferimento non correttamente accessibili (vedi compare.txt e log in data 2/9/2022 )
+| |# aggiungere nell'instestazine del file compare SRC e DST
+| |# aggiungere bottone per svuotare le label SRC e DSC
+| |# gestire errore suoni, GStreamer (	kivy.lib.gstplayer._gstplayer.GstPlayerException: Unable to create a playbin. Consider setting the environment variable GST_REGISTRY to a user accessible path, such as ~/registry.bin)
+| |# aggiungere le cartelle .git nella lista di quelle ignorate
+| |# dimensione del file/cartella da indicare ad ogni voce presente nel compare, al posto che il recap alla fine
+| |# aggiungere voce dopo l'analisi: 'ripeti analisi'
+| |# usare path assoluto per file kv, non relativo
+| |# PATH relativi o assoluti???

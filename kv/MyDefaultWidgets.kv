@@ -9,14 +9,14 @@
 #:set DARKGREY_RGBA app.colors["darkgrey_rgba"]
 
 #:set FONT_NAME Config["app"]["font_4"]
-#:set DEFAULT_FONT_SIZE Config.getint("kivy", "default_font_size")
+#:set FONT_SIZE Config.getint("kivy", "default_font_size")
 
 <MyDefaultLabel>:
     bkg_color: ORANGE_RGBA
     border_color: DARKGREY_RGBA
     color: DARKGREY_RGBA
     text_size: self.width - 20, self.height - 20
-    font_size: DEFAULT_FONT_SIZE
+    font_size: FONT_SIZE
     font_name: FONT_NAME
     valign: "center"
     halign: "center"
@@ -33,7 +33,7 @@
     background_normal: ""
     background_down: ""
     color: 1, 1, 1, 1
-    font_size: DEFAULT_FONT_SIZE
+    font_size: FONT_SIZE
     font_name: FONT_NAME
     text_size: self.size
     valign: "center"

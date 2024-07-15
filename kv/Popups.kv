@@ -1,19 +1,5 @@
 #:import Factory kivy.factory.Factory
-#:import Config kivy.config.Config
 #:import get_perc_font Tools.get_perc_font
-
-#:set DEFAULT_FONT_SIZE Config.getint("kivy", "default_font_size")
-#:set BK_IMAGE Config["app"]["bk_image"]
-#:set FT_LOGO Config["app"]["ft_logo"]
-#:set DEFAULT_FONT_SIZE Config.getint("kivy", "default_font_size")
-#:set FONT_NAME Config["app"]["font_4"]
-#:set ORANGE_RGBA app.colors["orange_rgba"]
-#:set BLUE_RGBA app.colors["blue_rgba"]
-#:set GREY_RGBA app.colors["grey_rgba"]
-#:set LIGHTNORMGREEN_RGBA app.colors["lightnormgreen_rgba"]
-#:set GREEN_RGBA app.colors["green_rgba"]
-#:set RED_RGBA app.colors["red_rgba"]
-#:set DARKGREY_RGBA app.colors["darkgrey_rgba"]
 
 <MainPopup>:
     auto_dismiss: False
@@ -34,7 +20,7 @@
             text: "Seleziona la cartella d'origine che aggiornerà i contenuti della cartella di destinazione"
             size_hint: 0.5, 0.17
             pos_hint: {"x": 0.02, "y": 0.6}
-            font_size: DEFAULT_FONT_SIZE * 0.5
+            font_size: FONT_SIZE * 0.5
             valign: "top"
             halign: "left"
 
@@ -50,13 +36,13 @@
                 Rectangle:
                     pos: self.pos
                     size: self.size
-                    source: FT_LOGO
+                    source: LOGO
 
         MyDefaultButton:
             text: "ORIGINE"
             size_hint: 0.3, 0.12
             pos_hint: {"x": 0.02, "y": 0.41}
-            font_size: DEFAULT_FONT_SIZE * 0.65
+            font_size: FONT_SIZE * 0.65
             bold: True
             bkg_color: LIGHTNORMGREEN_RGBA
 
@@ -68,7 +54,7 @@
             text: "DESTINAZIONE"
             size_hint: 0.3, 0.12
             pos_hint: {"x": 0.02, "y": 0.215}
-            font_size: DEFAULT_FONT_SIZE * 0.65
+            font_size: FONT_SIZE * 0.65
             bold: True
             bkg_color: LIGHTNORMGREEN_RGBA
 
@@ -79,13 +65,13 @@
             id: source_lbl
             size_hint: 0.65, 0.12
             pos_hint: {"x": 0.33, "y": 0.41}
-            font_size: DEFAULT_FONT_SIZE * 0.55
+            font_size: FONT_SIZE * 0.55
 
         MyAppearingLabel:
             id: destination_lbl
             size_hint: 0.65, 0.12
             pos_hint: {"x": 0.33, "y": 0.215}
-            font_size: DEFAULT_FONT_SIZE * 0.55
+            font_size: FONT_SIZE * 0.55
 
         MyDefaultButton:
             id: start_analisys_btn
@@ -126,7 +112,7 @@
             MyDefaultButton:
                 text: "ANNULLA"
                 bold: True
-                font_size: DEFAULT_FONT_SIZE * 0.6
+                font_size: FONT_SIZE * 0.6
 
                 on_release:
                     root.dismiss()
@@ -134,7 +120,7 @@
             MyDefaultButton:
                 text: "CAMBIA UNITà DI MEMORIA".upper()
                 bold: True
-                font_size: DEFAULT_FONT_SIZE * 0.4
+                font_size: FONT_SIZE * 0.4
 
                 on_release:
                     Factory.SetDrivePopup(filechooser_to_update=root.ids.filechooser).open()
@@ -142,7 +128,7 @@
             MyDefaultButton:
                 text: "SELEZIONA"
                 bold: True
-                font_size: DEFAULT_FONT_SIZE * 0.5
+                font_size: FONT_SIZE * 0.5
 
                 on_release:
                     root.selected_path = filechooser.path
@@ -164,7 +150,7 @@
         MyDefaultButton:
             text: "ANNULLA"
             bold: True
-            font_size: DEFAULT_FONT_SIZE * 0.6
+            font_size: FONT_SIZE * 0.6
             size_hint: 0.8, 0.15
             pos_hint: {"x": 0.1, "y": 0.05}
 
@@ -183,14 +169,14 @@
             bold: True
             size_hint: 0.9, 0.255
             pos_hint: {"x": 0.05, "y": 0.72}
-            font_size: DEFAULT_FONT_SIZE * 0.7
+            font_size: FONT_SIZE * 0.7
 
         MyDefaultButton:
             text: "APRI MODIFICHE"
             bold: True
             size_hint: 0.9, 0.2
             pos_hint: {"x": 0.05, "y": 0.5}
-            font_size: DEFAULT_FONT_SIZE * 0.55
+            font_size: FONT_SIZE * 0.55
 
             on_release:
                 app.get_compare_file()
@@ -200,7 +186,7 @@
             bold: True
             size_hint: 0.9, 0.2
             pos_hint: {"x": 0.05, "y": 0.275}
-            font_size: DEFAULT_FONT_SIZE * 0.55
+            font_size: FONT_SIZE * 0.55
 
             on_release:
                 app.start_transfer(popup_to_close=root)
@@ -210,7 +196,7 @@
             bold: True
             size_hint: 0.9, 0.2
             pos_hint: {"x": 0.05, "y": 0.05}
-            font_size: DEFAULT_FONT_SIZE * 0.6
+            font_size: FONT_SIZE * 0.6
 
             on_release:
                 root.dismiss()
@@ -226,7 +212,7 @@
             id: display_label
             text: "TRASFERIMENTO IN CORSO ..."  # display_action_popup.current_action
             italic: True
-            font_size: DEFAULT_FONT_SIZE * 1.51
+            font_size: FONT_SIZE * 1.51
             pos_hint: {"x": 0, "y": 0}
 
 <TransferPopup>:
@@ -238,7 +224,7 @@
         MyDefaultLabel:
             text: "TRASFERIMENTO TERMINATO!"
             bold: True
-            font_size: DEFAULT_FONT_SIZE * 0.55
+            font_size: FONT_SIZE * 0.55
             size_hint: 0.9, 0.55
             pos_hint: {"x": 0.05, "y": 0.4}
 
@@ -268,7 +254,7 @@
             color: 1, 1, 1, 1
             bkg_color: RED_RGBA
             size_hint_y: 0.25
-            font_size: DEFAULT_FONT_SIZE * 0.7
+            font_size: FONT_SIZE * 0.7
 
         MyDefaultLabel:
             text: root.error_text
@@ -276,12 +262,12 @@
             color: 1, 1, 1, 1
             bkg_color: RED_RGBA
             size_hint_y: 0.55
-            font_size: DEFAULT_FONT_SIZE * get_perc_font(len(root.error_text))
+            font_size: FONT_SIZE * get_perc_font(len(root.error_text))
 
         MyDefaultButton:
             text: "CHIUDI"
             bold: True
-            font_size: DEFAULT_FONT_SIZE * 0.7
+            font_size: FONT_SIZE * 0.7
             size_hint_y: 0.2
 
             on_release:
@@ -294,7 +280,7 @@
 
     MyDefaultLabel:
         text: "[b]FileTransfer[/b]: programma che allinea una cartella con una sua versione più aggiornata; devono essere scelte SRC e DST:\n[b]-SRC[/b]: cartella più aggiornata, verrà usata come indicazione\n[b]-DST[/b]: cartella da aggiornare, qui verranno inserite tutte le modifiche\n\nI file presenti allo stesso percorso sia in SRC sia in DST verranno sovrascritti se hanno dimensione diversa, copiati se non sono presenti in SRC, inoltre tutte le cartelle in SRC ma non in DST vengono create con il loro relativo contenuto, file e cartelle (compreso il loro contenuto) in DST ma non in SRC verranno eliminati."
-        font_size: DEFAULT_FONT_SIZE * 0.45
+        font_size: FONT_SIZE * 0.45
         valign: "top"
         halign: "left"
         markup: True

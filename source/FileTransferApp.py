@@ -1,27 +1,28 @@
 import os.path
-
-import Tools
-from FileTransfer import FileTransfer, SelectingFoldersError, TransferingFilesError, ComparingFoldersError
-from kivy.config import Config
 from functools import partial
+from datetime import date
+import Tools
+from win32api import GetSystemMetrics
+from Exceptions import *
 
-Config.read("D:\\MyPython\\FileTransfer\\dist\\FileTransfer\\_internal\\settings\\config_filetransfer.ini")
-Tools.set_center_app(Config)
+from kivy.config import Config
 
-LOG_LEVELS = {10: logging.DEBUG, 20: logging.INFO, 30: logging.WARNING, 40: logging.ERROR, 50: logging.CRITICAL}
+if os.environ.get("FileTransferAppPath") == os.getcwd():
+    os.chdir("_internal")
+else:
+    os.chdir("..")
+LOG_PATH = Tools.get_abs_path("logs")
+CONFIG_PATH = Tools.get_abs_path("settings\\config_filetransfer.ini")
+COMPARE_FILE_PATH = Tools.get_abs_path("compare")
+Config.read(CONFIG_PATH)
 
-from Widgets import *
+from Widgets import *       # DefaultWidgets
+from Popups import *
 from kivy.app import App
-# from kivy.uix.button import Button
-# from kivy.uix.label import Label
-# from kivy.uix.modalview import ModalView
-# from kivy.lang import Builder
-# from kivy.properties import StringProperty, ObjectProperty
-# from kivy.uix.widget import Widget
-# from kivy.core.audio import SoundLoader
-# from kivy.clock import Clock
-# from kivy.animation import Animation
-# from kivy.graphics import Ellipse, Color
+from kivy.lang import Builder
+from kivy.core.window import Window
+
+from FileTransfer import *
 
 
 def sound_decorator(sound_file_path):
@@ -31,50 +32,124 @@ def sound_decorator(sound_file_path):
             sound = SoundLoader.load(sound_file_path)  # suono da riprodurre
             if sound:
                 sound.play()
-            else:
-                logging.warning("[%-15s]: file audio %s non trovato!", "FileTransferApp", sound_file_path)
+            else:       # NB: throw some exception
+                pass
             function_to_wrap(*args, **kwargs)
         return sound_function
     return wrap
 
 
 class FileTransferApp(App):
-    colors = {key: [float(element.strip()) for element in value[1:len(value) - 1].split(",")] for key, value in Config["kivy_colors"].items()}  # dizionario --> nome_colore: rgba
-    source_path = ObjectProperty("")              # percorso di origine (più aggiornato)
-    destination_path = ObjectProperty("")         # percorso di destinazione (da aggiornare)
-
     def __init__(self, **kwargs):
-        create_logger(level=LOG_LEVELS[Config.getint("log", "log_level")],
-                      log_path=Config["log"]["log_path"],
-                      log_name=Config["log"]["log_name"],
-                      fmt=Config["log"]["format"])
-
-        logging.info("[%-15s]: %s", "FileTransferApp", "#" * 80)
-        logging.info("[%-15s]: applicazione avviata", "FileTransferApp")
-        self.ft = FileTransfer()                # istanza di FileTransfer, con cui gestirò le azioni più a basso livello
+        super().__init__(**kwargs)
         self._stopped = False                   # variabile interna mi serve per evitare di scrivere due volte sul log quando chiudo l'app
         self.main_popup_instance = None         # reference del popup principale
+        self.config_info = {}
+        self.create_logger(LOG_PATH, Config.get("log", "log_level", fallback=20))
+        self.read_config(Config)
+        self.ft = FileTransfer()                # istanza di FileTransfer, con cui gestirò le azioni più a basso livello
 
-        super().__init__(**kwargs)
+    def read_config(self, config):
+        try:
+            self.config_info["kv_files"] = [Tools.get_abs_path(kv_file) for kv_file in config["kivy_files"].values()]
+            self.config_info["bk_image_path"] = Tools.get_abs_path(config["kivy"]["bk_image_path"])
+            self.config_info["logo_path"] = Tools.get_abs_path(config["graphics"]["logo_path"])
+            self.config_info["font_path"] = Tools.get_abs_path(config["kivy"]["font_path"])
+            self.config_info["font_size"] = config.getint("kivy", "font_size")
+            self.config_info["width_app"] = config.getint("graphics", "width")
+            self.config_info["height_app"] = config.getint("graphics", "height")
+            self.config_info["colors"] = {}
+            for color_rgba in config["colors"].keys():
+                self.config_info["colors"][color_rgba] = Tools.str_to_list_float(config["colors"][color_rgba])
+            self.config_info["sounds"] = {}
+            for sound in config["sounds"].keys():
+                self.config_info["sounds"][sound] = Tools.get_abs_path(config["sounds"][sound])
+        except (KeyError, ValueError) as error:
+            self.update_log("errore nel file .ini - trace: %s", 40, str(error))
+            raise AppException("Errore nel file .ini - trace: {}".format(str(error)))
+
+    def get_bk_image(self):
+        return self.config_info["bk_image_path"]
+
+    def get_logo(self):
+        return self.config_info["logo_path"]
+
+    def get_font_name(self):
+        return self.config_info["font_path"]
+
+    def get_font_size(self):
+        return self.config_info["font_size"]
+
+    def get_color(self, color_name):
+        return self.config_info["colors"][color_name]
+
+    def get_sound(self, sound_name):
+        return self.config_info["sounds"][sound_name]
+
+    def create_logger(self, log_path, log_level):
+        log_name = "Logfile_{}.log".format(date.today().strftime("%d-%m-%Y"))
+        log_path = os.path.join(log_path, log_name)
+        log_levels = {10: logging.DEBUG, 20: logging.INFO, 30: logging.WARNING, 40: logging.ERROR, 50: logging.CRITICAL}
+        log_level_is_wrong = False
+        try:
+            log_level = int(log_level)
+            if log_level not in log_levels:
+                raise KeyError()
+        except KeyError:
+            log_level_is_wrong = True
+            log_level = 20
+        finally:
+            log_level = log_levels[log_level]
+        log_encoding = "utf-8"
+        log_format = "%(asctime)s | %(levelname)-9s | %(message)s"
+        log_date_format = "%m/%d/%Y %H:%M:%S"
+
+        logger = logging.getLogger(__name__)
+        logging.root = logger
+        logger.setLevel(log_level)
+        file_handler = logging.FileHandler(filename=log_path, encoding=log_encoding)
+        log_formatter = logging.Formatter(fmt=log_format, datefmt=log_date_format)
+        file_handler.setFormatter(log_formatter)
+        file_handler.setLevel(log_level)
+        logger.addHandler(file_handler)
+
+        self.update_log("#" * 80, 20)
+        self.update_log("app avviata", 20)
+        if log_level_is_wrong is True:
+            self.update_log("livello log in .ini file non valido [usage: 10, 20, 30, 40, 50]", 30)
+
+    def update_log(self, message, level, *args):
+        log_alerts = {10: logging.debug, 20: logging.info, 30: logging.warning, 40: logging.error, 50: logging.critical}
+        try:
+            log_alerts[level](message, *args)
+        except KeyError:
+            self.update_log("invalid log level provided: {}, original message: '{}'".format(level, message), 30, *args)
 
     def build(self):
-        Builder.load_file("../kv/Style.kv")
-        Builder.load_file("../kv/MyDefaultWidgets.kv")
-        logging.debug("[%-15s]: caricati i fogli di stile .kv", "FileTransferApp")
+        width_screen = GetSystemMetrics(0)
+        height_screen = GetSystemMetrics(1)
+        Window.left = (width_screen - self.config_info["width_app"]) // 2
+        Window.top = (height_screen - self.config_info["height_app"]) // 2
+        for kv_file in self.config_info["kv_files"]:
+            try:
+                Builder.load_file(kv_file)
+            except Exception as error:
+                self.update_log("caricamento front-end - errore in %s - %s", 40, kv_file, str(error))
+                raise AppException("Caricamento front-end, errore: ".format(str(error)))
+            self.update_log("caricamento front-end - %s", 10, kv_file)
         self.main_popup_instance = MainPopup()
-        self.main_popup_instance.open()
+        self.main_popup_instance.open()         # NB: maybe better use a Screen?
 
-    def check_src_dst(self):
+    def check_input_paths(self, source_path, destination_path):
         """Se entrambi self.source_path e self.destination_path sono popolati (cioè <> ""), verifica i valori inseriti
         con il metodo FileTransfer.check_folders()"""
-        if self.source_path != "" and self.destination_path != "":
-            try:
-                self.ft.check_folders(self.source_path, self.destination_path)
-            except SelectingFoldersError as error:
-                ErrorPopup(error_text=str(error)).open()
-                App.get_running_app().main_popup_instance.ids.start_analisys_btn.opacity = 0
-            else:   # rendo visibile il bottone per iniziare l'analisi e chiudo il popup
-                self.main_popup_instance.ids.start_analisys_btn.opacity = 1
+        try:
+            self.ft.check_folders(source_path, destination_path)
+        except SelectingFoldersError as error:
+            ErrorPopup(error_text=str(error)).open()
+            App.get_running_app().main_popup_instance.ids.start_analisys_btn.opacity = 0
+        else:   # rendo visibile il bottone per iniziare l'analisi e chiudo il popup
+            self.main_popup_instance.ids.start_analisys_btn.opacity = 1
 
     def start_analysis(self):
         """Funzione per l'analisi di SRC e DST, prima crea gli alberi di directory (FileTransfer.set_foders()) poi scrive
@@ -82,11 +157,9 @@ class FileTransferApp(App):
         try:
             self.ft.set_folders()
             self.ft.compare()
-
         except (ComparingFoldersError, SelectingFoldersError) as error:
             ErrorPopup(error_text=str(error)).open()
             self.clear_labels()
-
         else:   # se tutto è andato come previsto apro il popup ad analisi terminata
             AnalyzerPopup().open()
 
@@ -102,20 +175,15 @@ class FileTransferApp(App):
         """Metodo per eseguire le azioni di allineamento di DST a SRC, wrappa FileTransfer.transfer(), al termine apre
         il popup informativo sull'avvenuto trasferimento, avvisando nel caso di errori verificatisi"""
         popup_to_close.dismiss()
-
         try:
             errors_occurred = self.ft.transfer()
-
         except TransferingFilesError as error:
             ErrorPopup(error_text=str(error)).open()
-
         else:
             if errors_occurred is False:
                 TransferPopup().open()
-
             else:
                 ErrorPopup(error_text="Il trasferimento è terminato, tuttavia si sono verificati alcuni errori, controlla nel log per ulteriori dettagli").open()
-
             self.clear_labels()     # pulisco le etichette su SRC e DST scelte, inoltre nascondo il tasto per avviare l'analisi
 
     def get_compare_file(self):
@@ -131,21 +199,10 @@ class FileTransferApp(App):
         utilizzo il parametro _stopped"""
         if not self._stopped:
             self._stopped = True
-
             if self.ft:
                 self.ft.close()
-
-            logging.info("[%-15s]: chiusura applicazione", "FileTransferApp")
-            logging.info("[%-15s]: %s", "FileTransferApp", "#" * 80)
-
-    def on_source_path(self, instance, path):
-        """Ogni volta che viene valorizzato source verifico che source e destination siano corretti per attivare i
-        bottoni e iniziare l'analisi"""
-        self.check_src_dst()
-
-    def on_destination_path(self, instance, path):
-        """Come sopra"""
-        self.check_src_dst()
+        self.update_log("app chiusa", 20)
+        self.update_log("#" * 80, 20)
 
     def clear_labels(self):
         """Alla fine del trasferimento o in caso di errore in caso di analisi/trasferimento bisogna riprendere da 0 il
@@ -154,8 +211,6 @@ class FileTransferApp(App):
 
         self.main_popup_instance.ids.source_lbl.text = ""               # testo etichetta SRC
         self.main_popup_instance.ids.destination_lbl.text = ""          # testo etichetta DST
-        self.source_path = ""                         # variabile dell'app di SRC
-        self.destination_path = ""                    # variabile dell'app di DST
         self.main_popup_instance.ids.start_analisys_btn.opacity = 0     # disattivo (opacità a 0) il pulsante di avvio analisi, lo riattiverò quando verifico i nuovi SRC e DST
 
 

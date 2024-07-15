@@ -1,3 +1,13 @@
+class AppException(Exception):
+    """Se si verifica un errore interno a livello di funzionamento di widget"""
+    def __init__(self, error_text):
+        super().__init__()
+        self.error_text = error_text  # creo la proprietà di classe per avere maggiori informazioni sull'errore verificatosi
+
+    def __str__(self):
+        return self.error_text
+
+
 class FileTransferAppError(Exception):
     """Eccezione del modulo FileTransferApp.py """
     def __init__(self, error_text):
@@ -37,3 +47,13 @@ class ParserError(FileTransferError):
     """Eccezione sollevata in caso di errore relativo ad operazioni di accesso/modifica al file compare tramite un'istanza
     di CompareFileParser()"""
     pass
+
+
+class ToolsUtilitiesError(Exception):
+    """Eccezione sollevata da una delle funzioni del modulo Tools"""
+    def __init__(self, error_text):
+        super().__init__()
+        self.error_text = error_text  # creo la proprietà di classe per avere maggiori informazioni sull'errore verificatosi
+
+    def __str__(self):
+        return self.error_text

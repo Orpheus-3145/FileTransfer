@@ -2,22 +2,35 @@ import os
 import shutil
 import stat
 import re
-import time
-from os.path import normpath
-import logging
-from datetime import date
-from math import floor, ceil
+from math import floor
 import win32api
 
+from Exceptions import *
 
-class ToolsUtilitiesError(Exception):
-    """Eccezione sollevata da una delle funzioni del modulo Tools"""
-    def __init__(self, error_text):
-        super().__init__()
-        self.error_text = error_text  # creo la proprietà di classe per avere maggiori informazioni sull'errore verificatosi
 
-    def __str__(self):
-        return self.error_text
+def get_abs_path(relative_path):
+    abs_path = os.path.normpath(os.path.join(os.getcwd(), relative_path))
+    if os.path.exists(abs_path) is False:
+        raise ValueError("non-existing path: {}".format(abs_path))
+    return abs_path
+
+
+def list_to_str(container):
+    """Converte in stringa un contenitore passato (list, dict, ...)"""
+    str_elements = ""
+    if isinstance(container, list) or isinstance(container, set):
+        str_elements += ", ".join([str(element) for element in container])
+    elif isinstance(container, dict):
+        str_elements += ", ".join("{}: {}".format(key, value) for key, value in container.items())
+
+    return str_elements
+
+
+def str_to_list_float(string_list):
+    try:
+        return [float(value) for value in string_list[1:-1].split(",")]
+    except (TypeError, ValueError, IndexError):
+        raise ValueError("invalid format [usage: '[a, b, c, ..., k]']")
 
 
 # non usato
@@ -73,7 +86,7 @@ def get_all_dirs_from_path(path, mode=None):
             while directory[0] == "\\":
                 directory = directory[1:]
 
-        dir_list.append(normpath(directory))
+        dir_list.append(os.path.normpath(directory))
 
     return dir_list
 
@@ -241,68 +254,10 @@ def update_file_name(old_file_name):
         return old_file_name.replace("_{}.txt".format(old_prog), "_{}.txt".format(new_prog))
 
 
-def create_logger(level, log_name, log_path, fmt):
-    """Funzione che crea un log, popolato tramite le chiamate a logging"""
-    logger = logging.getLogger('filetransfer_logger')
-    logging.root = logger
-    logger.setLevel(level)
-
-    file_handler = logging.FileHandler(filename=os.path.join(log_path, log_name.format(date.today().strftime("%d-%m-%Y"))), encoding="utf-8")
-    log_formatter = logging.Formatter(fmt=fmt)
-    file_handler.setFormatter(log_formatter)
-    file_handler.setLevel(level)
-    logger.addHandler(file_handler)
-
-
-def set_center_app(config_obj):
-    """A seconda dello schermo che uso, centro l'app nel monitor aggiornando il file .ini associato all'istanza di
-    Config"""
-    from win32api import GetSystemMetrics   # per trovare le dimensioni dello schermo in uso
-
-    width_app = config_obj.getint("graphics", "width")
-    height_app = config_obj.getint("graphics", "height")
-    width_screen = GetSystemMetrics(0)
-    height_screen = GetSystemMetrics(1)
-
-    config_obj.set("graphics", "top", str((height_screen - height_app) // 2))
-    config_obj.set("graphics", "left", str((width_screen - width_app) // 2))
-
-    config_obj.write()
-
-
-def get_drive_list():
+def get_drive_list():       # NB: move to FileTransfer.py
     """Restituisce una lista degli hard disk presenti nel pc"""
     drives = win32api.GetLogicalDriveStrings()
     return drives.split('\000')[:-1]
-
-
-def get_perc_font(len_str):
-    """La dimensione del font deve essere in funzione del numero di caratteri della stringa che deve essere inserita in
-    un'etichetta (per evitare tagli), creo quindi una funzione interpolante (polinomiale, metodo di Lagrange) a seconda
-    di alcuni punti (elencati qui sotto) per cui si ha un buon compromesso font_size/lunghezza caratteri"""
-    # TODO nb la dimensione finale è calcolata in base alle dimensioni della label che contiene la stringa, bisogna generalizzare
-
-    # 1° coppia (250, 0.32)
-    # 2° coppia (63, 0.5)
-    # 3° coppia (163, 0.37)
-    # 4° coppia (116, 0.42)
-    # 5° coppia (209, 0.324)
-    # 6° coppia (91, 0.45)
-
-    x_0, y_0 = 250, 0.32    # 250 estremo superiore
-    x_1, y_1 = 63, 0.5      # 63 estremo inferiore
-    x_2, y_2 = 163, 0.37    # valore contenuto tra x_0 e x_1
-
-    if len_str < x_1:       # se la lunghezza di len_str è minore dell'estremo inf o maggiore di quello sup. uso valori costanti
-        return y_1
-
-    elif len_str > x_0:
-        return y_0
-
-    else:   # se invece è contenuta nell'intervallo uso la funzione interpolante
-        return y_0 * ((len_str - x_1)/(x_0 - x_1)) * ((len_str - x_2)/(x_0 - x_2)) +\
-               y_1 * ((len_str - x_0)/(x_1 - x_0)) * ((len_str - x_2)/(x_1 - x_2)) +\
-               y_2 * ((len_str - x_0)/(x_2 - x_0)) * ((len_str - x_1)/(x_2 - x_1))
 
 
 if __name__ == "__main__":

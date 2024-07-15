@@ -1,0 +1,40 @@
+<BKGlabel>:
+    canvas.before:
+        Color:
+            rgba: self.border_color
+        Rectangle:
+            pos: self.x, self.y
+            size: self.width, self.height
+
+        Color:
+            rgba: self.background_color
+        Rectangle:
+            pos: self.x + 2, self.y + 2
+            size: self.width - 4, self.height - 4
+
+        Color:
+            rgba: self.border_color
+        Rectangle:
+            pos: self.x + 4, self.y + 4
+            size: self.width - 8, self.height - 8
+
+        Color:
+            rgba: self.background_color
+        Rectangle:
+            pos: self.x + 6, self.y + 6
+            size: self.width - 12, self.height - 12
+
+
+<BKGrowLayout>:
+    canvas.before:
+        Color:
+            rgba: self.border_color
+        Line:
+            width: 1.5
+            rectangle: [self.x, self.y, self.width, self.height]
+
+        Color:
+            rgba: [x if self.border_color.index(x) != len(self.border_color) - 1 else 0.6 for x in self.border_color]
+        Rectangle:
+            pos: self.x + 1.5, self.y + 1.5
+            size: self.width - 3, self.height - 3

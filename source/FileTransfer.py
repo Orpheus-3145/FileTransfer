@@ -9,8 +9,8 @@ import configparser
 import inspect
 from Exceptions import *
 
-Config = configparser.ConfigParser()
-Config.read("D:\\MyPython\\FileTransfer\\dist\\FileTransfer\\_internal\\settings\\config_filetransfer.ini")
+# Config = configparser.ConfigParser()
+# Config.read("D:\\MyPython\\FileTransfer\\dist\\FileTransfer\\_internal\\settings\\config_filetransfer.ini")
 
 
 class FileTransfer:
@@ -476,11 +476,11 @@ class CompareFileParser:
 class CompareFile:
     """Classe wrapper che rappresenta il file compare, è utilizzabile nel context manager"""
 
-    def __init__(self, compare_file_path=None, compare_file_name=None):
+    def __init__(self, compare_file_path):
         """Il percorso e il nome del file compare possono essere passati come argomento oppure di default vengono presi
         dal file .ini. Crea il file compare, se esiste già ne crea uno nuovo compare_x.txt in modo ricorsivo"""
-        self.compare_file_name = compare_file_name if compare_file_name else Config["app"]["compare_file_name"].format(datetime.now().strftime("%Y%m%d"))
-        self.compare_file_path = compare_file_path if compare_file_path else Config["app"]["compare_file_path"]
+        self.compare_file_name = "{}_compare.txt".format(datetime.now().strftime("%Y%m%d"))
+        self.compare_file_path = compare_file_path
         self.file_object = None
 
         while True:     # creo il file object per eseguire operazioni r/w
