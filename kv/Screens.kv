@@ -1,0 +1,95 @@
+#:import Factory kivy.factory.Factory
+
+<ManagerScreen>:
+    canvas:
+        Rectangle:
+            size: root.size
+            source: BK_IMAGE
+
+<MainScreen>:
+    FloatLayout:
+        DefaultLabel:
+            text: "FILE TRANSFER"
+            bold: True
+            size_hint: 0.7, 0.15
+            pos_hint: {"x": 0.15, "y": 0.8}
+
+        DefaultLabel:
+            text: "Seleziona la cartella d'origine che aggiornerà i contenuti della cartella di destinazione"
+            size_hint: 0.5, 0.17
+            pos_hint: {"x": 0.02, "y": 0.6}
+            font_size: FONT_SIZE * 0.5
+            valign: "top"
+            halign: "left"
+
+        DefaultLabel:
+            size_hint: 0.04, 0.04 * 4/3
+            pos_hint: {"x": 0.47, "y": 0.61}
+            on_touch_down:
+                Factory.InfoPopup().open()
+            canvas:
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+                    source: LOGO
+
+        DefaultButton:
+            text: "ORIGINE"
+            size_hint: 0.3, 0.12
+            pos_hint: {"x": 0.02, "y": 0.41}
+            font_size_scale: 0.65
+            bold: True
+            background_color: LIGHTNORMGREEN_RGBA
+            on_press:
+                Factory.SetFolderPopup(root.set_source_path).open()
+
+        DefaultButton:
+            text: "DESTINAZIONE"
+            size_hint: 0.3, 0.12
+            pos_hint: {"x": 0.02, "y": 0.215}
+            font_size_scale: 0.65
+            bold: True
+            background_color: LIGHTNORMGREEN_RGBA
+            on_press:
+                Factory.SetFolderPopup(root.set_destination_path).open()
+
+        DefaultLabel:
+            id: source_lbl
+            size_hint: 0.65, 0.12
+            pos_hint: {"x": 0.33, "y": 0.41}
+            font_size_scale: 0.55
+
+        DefaultLabel:
+            id: destination_lbl
+            size_hint: 0.65, 0.12
+            pos_hint: {"x": 0.33, "y": 0.215}
+            font_size_scale: 0.55
+
+        DefaultButton:
+            id: start_analisys_btn
+            text: "AVVIA ANALISI"
+            size_hint: 0.3, 0.12
+            pos_hint: {"x": 0.16, "y": 0.02}
+            bold: True
+            background_color: LIGHTNORMGREEN_RGBA
+            font_size_scale: 0.55
+            on_press:
+                root.start_analysis()
+
+        DefaultButton:
+            id: start_transfer_btn
+            text: "AVVIA TRASFERIMENTO"
+            size_hint: 0.3, 0.12
+            pos_hint: {"x": 0.5, "y": 0.02}
+            bold: True
+            background_color: LIGHTNORMGREEN_RGBA
+            font_size_scale: 0.55
+            on_press:
+
+#        DefaultButton:
+#            text: "CHIUDI"
+#            size_hint: 0.23, 0.1
+#            pos_hint: {"x": 0.74, "y": 0.02}
+#            background_color: RED_RGBA
+#            on_press:
+#                app.close()

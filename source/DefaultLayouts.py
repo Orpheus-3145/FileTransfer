@@ -1,25 +1,6 @@
 from kivy.uix.boxlayout import BoxLayout
 from DefaultWidgets import *
-from AppExceptions import *
-
-
-class Showable(Widget):
-    def __init__(self, **kw):
-        self.tmp_size_hint_x = 0
-        super().__init__(**kw)
-
-    def on_kv_post(self, base_widget):
-        self.tmp_size_hint_x = self.size_hint[0]
-
-    def show_widget(self):
-        self.disabled = False
-        self.opacity = 1
-        self.size_hint[0] = self.tmp_size_hint_x
-
-    def hide_widget(self):
-        self.disabled = True
-        self.opacity = 0
-        self.size_hint[0] = 0
+from Exceptions import *
 
 
 class DefaultLayout(BoxLayout, Showable):
@@ -105,7 +86,6 @@ class ButtonDynamicInputLayout(DynamicLayout, InputLayout):
 
 
 class TableDynamicInputLayout(DynamicLayout, InputLayout):
-
     def update_layout(self, records):
         """Aggiorna la tabella con la lista records, crea n righe di RowDynamicInputLayout ciascuna composta da m bottoni"""
         self.clear_widgets()

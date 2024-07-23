@@ -10,7 +10,7 @@ MODIFICHE:
 	| | cambio da venv a pipenv
 	| | standardizzare il dict contenete le info da inserire in compare.txt
 	| | caratterizzare meglio le eccezioni e gestire quelle di tipo ToolsUtiliesError su FileTransfer
-	| | aggiungere le cartelle .git nella lista di quelle ignorate
+	| | aggiungere le cartelle .git, .idea, __pycache__, venv, ... nella lista di quelle ignorate
     | | dimensione del file/cartella da indicare ad ogni voce presente nel compare, al posto che il recap alla fine
 
 BUG:

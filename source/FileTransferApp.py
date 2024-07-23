@@ -5,7 +5,6 @@ import Tools
 from win32api import GetSystemMetrics
 from Exceptions import *
 
-from kivy.config import Config
 
 if os.environ.get("FileTransferAppPath") == os.getcwd():
     os.chdir("_internal")
@@ -14,29 +13,21 @@ else:
 LOG_PATH = Tools.get_abs_path("logs")
 CONFIG_PATH = Tools.get_abs_path("settings\\config_filetransfer.ini")
 COMPARE_FILE_PATH = Tools.get_abs_path("compare")
+
+
+from kivy.config import Config
 Config.read(CONFIG_PATH)
 
-from Widgets import *       # DefaultWidgets
-from Popups import *
+
+# from Widgets import *       # DefaultWidgets
+# from Popups import *
+from Screens import *
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.core.window import Window
+from kivy.clock import Clock
 
 from FileTransfer import *
-
-
-def sound_decorator(sound_file_path):
-    """Decoratore per associare l'esecuzione di un suono al termine di una funzione"""
-    def wrap(function_to_wrap):
-        def sound_function(*args, **kwargs):
-            sound = SoundLoader.load(sound_file_path)  # suono da riprodurre
-            if sound:
-                sound.play()
-            else:       # NB: throw some exception
-                pass
-            function_to_wrap(*args, **kwargs)
-        return sound_function
-    return wrap
 
 
 class FileTransferApp(App):
@@ -44,6 +35,7 @@ class FileTransferApp(App):
         super().__init__(**kwargs)
         self._stopped = False                   # variabile interna mi serve per evitare di scrivere due volte sul log quando chiudo l'app
         self.main_popup_instance = None         # reference del popup principale
+        self.manager = None
         self.config_info = {}
         self.create_logger(LOG_PATH, Config.get("log", "log_level", fallback=20))
         self.read_config(Config)
@@ -53,7 +45,7 @@ class FileTransferApp(App):
         try:
             self.config_info["kv_files"] = [Tools.get_abs_path(kv_file) for kv_file in config["kivy_files"].values()]
             self.config_info["bk_image_path"] = Tools.get_abs_path(config["kivy"]["bk_image_path"])
-            self.config_info["logo_path"] = Tools.get_abs_path(config["graphics"]["logo_path"])
+            self.config_info["logo_path"] = Tools.get_abs_path(config["kivy"]["logo_path"])
             self.config_info["font_path"] = Tools.get_abs_path(config["kivy"]["font_path"])
             self.config_info["font_size"] = config.getint("kivy", "font_size")
             self.config_info["width_app"] = config.getint("graphics", "width")
@@ -126,42 +118,31 @@ class FileTransferApp(App):
             self.update_log("invalid log level provided: {}, original message: '{}'".format(level, message), 30, *args)
 
     def build(self):
-        width_screen = GetSystemMetrics(0)
-        height_screen = GetSystemMetrics(1)
-        Window.left = (width_screen - self.config_info["width_app"]) // 2
-        Window.top = (height_screen - self.config_info["height_app"]) // 2
+        # width_screen = GetSystemMetrics(0)
+        # height_screen = GetSystemMetrics(1)
+        # print(Window.size)
+        # print(Window.left)
+        # print(Window.top)
+        # Window.left = 0#(width_screen - self.config_info["width_app"]) // 2
+        # Window.top = 0#(height_screen - self.config_info["height_app"]) // 2
+        # print(width_screen, self.config_info["width_app"], (width_screen - self.config_info["width_app"]) // 2)
+        # print(height_screen, self.config_info["height_app"], (height_screen - self.config_info["height_app"]) // 2)
         for kv_file in self.config_info["kv_files"]:
             try:
                 Builder.load_file(kv_file)
             except Exception as error:
                 self.update_log("caricamento front-end - errore in %s - %s", 40, kv_file, str(error))
-                raise AppException("Caricamento front-end, errore: ".format(str(error)))
+                raise AppException("Errore nel cariamento del front-end, consulta il log per ulteriori dettagli")
             self.update_log("caricamento front-end - %s", 10, kv_file)
-        self.main_popup_instance = MainPopup()
-        self.main_popup_instance.open()         # NB: maybe better use a Screen?
+        self.manager = ManagerScreen()
+        self.manager.add_widget(MainScreen(self.config_info["colors"]))
+        return self.manager
 
     def check_input_paths(self, source_path, destination_path):
-        """Se entrambi self.source_path e self.destination_path sono popolati (cioè <> ""), verifica i valori inseriti
-        con il metodo FileTransfer.check_folders()"""
-        try:
-            self.ft.check_folders(source_path, destination_path)
-        except SelectingFoldersError as error:
-            ErrorPopup(error_text=str(error)).open()
-            App.get_running_app().main_popup_instance.ids.start_analisys_btn.opacity = 0
-        else:   # rendo visibile il bottone per iniziare l'analisi e chiudo il popup
-            self.main_popup_instance.ids.start_analisys_btn.opacity = 1
+        self.ft.check_folders(source_path, destination_path)
 
     def start_analysis(self):
-        """Funzione per l'analisi di SRC e DST, prima crea gli alberi di directory (FileTransfer.set_foders()) poi scrive
-        il file compare.txt (FileTransfer.compare())"""
-        try:
-            self.ft.set_folders()
-            self.ft.compare()
-        except (ComparingFoldersError, SelectingFoldersError) as error:
-            ErrorPopup(error_text=str(error)).open()
-            self.clear_labels()
-        else:   # se tutto è andato come previsto apro il popup ad analisi terminata
-            AnalyzerPopup().open()
+        self.ft.compare()
 
     def start_transfer(self, popup_to_close):
         """Metodo lanciato all'inizio del trasferimento, apre il popup 'trasferimento in corso' durante l'effettivo

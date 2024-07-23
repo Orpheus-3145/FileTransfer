@@ -1,0 +1,113 @@
+---
+action           ---> COPIA FILE
+entity           ---> faru.jpg
+size             ---> 389.58 Kb
+source_path      ---> C:\repo\faru.jpg
+destination_path ---> C:\users\franc\Desktop\prova\repo
+---
+action           ---> RIMUOVI FILE
+entity           ---> .gitignore
+size             ---> 24 b
+destination_path ---> C:\users\franc\Desktop\prova\repo\.gitignore
+---
+action           ---> RIMUOVI FILE
+entity           ---> LICENSE
+size             ---> 18.00 Kb
+destination_path ---> C:\users\franc\Desktop\prova\repo\LICENSE
+---
+action           ---> RIMUOVI FILE
+entity           ---> README.md
+size             ---> 616 b
+destination_path ---> C:\users\franc\Desktop\prova\repo\README.md
+---
+action           ---> CREA CARTELLA
+entity           ---> AoC
+size             ---> 357.83 Kb
+source_path      ---> C:\repo\AoC
+destination_path ---> C:\users\franc\Desktop\prova\repo
+---
+action           ---> CREA CARTELLA
+entity           ---> Info
+size             ---> 23.07 Mb
+source_path      ---> C:\repo\Info
+destination_path ---> C:\users\franc\Desktop\prova\repo
+---
+action           ---> CREA CARTELLA
+entity           ---> Projects
+size             ---> 0 b
+source_path      ---> C:\repo\Projects
+destination_path ---> C:\users\franc\Desktop\prova\repo
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> .git
+size             ---> 9.17 Mb
+destination_path ---> C:\users\franc\Desktop\prova\repo\.git
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> .idea
+size             ---> 17.59 Kb
+destination_path ---> C:\users\franc\Desktop\prova\repo\.idea
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> app
+size             ---> 2.28 Kb
+destination_path ---> C:\users\franc\Desktop\prova\repo\app
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> backup
+size             ---> 12.09 Mb
+destination_path ---> C:\users\franc\Desktop\prova\repo\backup
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> kv
+size             ---> 21.17 Kb
+destination_path ---> C:\users\franc\Desktop\prova\repo\kv
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> logs
+size             ---> 494 b
+destination_path ---> C:\users\franc\Desktop\prova\repo\logs
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> media
+size             ---> 17.13 Mb
+destination_path ---> C:\users\franc\Desktop\prova\repo\media
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> patch
+size             ---> 847 b
+destination_path ---> C:\users\franc\Desktop\prova\repo\patch
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> qlik
+size             ---> 979.21 Kb
+destination_path ---> C:\users\franc\Desktop\prova\repo\qlik
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> settings
+size             ---> 2.97 Kb
+destination_path ---> C:\users\franc\Desktop\prova\repo\settings
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> source
+size             ---> 150.34 Kb
+destination_path ---> C:\users\franc\Desktop\prova\repo\source
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> venv
+size             ---> 91.25 Mb
+destination_path ---> C:\users\franc\Desktop\prova\repo\venv
+
+***
+
+File da copiare: 236
+File da eliminare: 4793
+Cartelle da creare: 163
+Cartelle da eliminare: 714
+Totale azioni: 5906
+
+Dimensione totale dei file da spostare: 23.80 Mb
+Dimensione totale dei file da eliminare: 130.80 Mb
+
+Tempo di esecuzione analisi: 0.26 sec
+

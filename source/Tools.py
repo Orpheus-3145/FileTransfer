@@ -11,6 +11,7 @@ from Exceptions import *
 def get_abs_path(relative_path):
     abs_path = os.path.normpath(os.path.join(os.getcwd(), relative_path))
     if os.path.exists(abs_path) is False:
+        print(os.getcwd(), abs_path)
         raise ValueError("non-existing path: {}".format(abs_path))
     return abs_path
 
@@ -73,19 +74,18 @@ def get_all_dirs_from_path(path, mode=None):
         oppure relativo a dirname(path), cioè dalla cartella di base in avanti"""
 
     dir_list = []
-
+    print('checking path', path)
     def launch_error(os_error):
         """La funzione launch_error passata nel parametro onerror di os.walk() permette di esplicitare gli errori
         verificatosi durante la creazione delle sotto directory"""
         raise os_error
-
     for directory, list_dir, list_file in os.walk(path, onerror=launch_error):
+        # if directory == path:       # walk(path) also consider path itself as a directory, skip it
+        #     continue
         if mode == "base_directory":    # prendo il percorso dalla cartella di base in avanti
             directory = directory.replace(os.path.dirname(path), "")       # rimuovo inoltre il percorso iniziale, comune a tutte le directory
-
             while directory[0] == "\\":
                 directory = directory[1:]
-
         dir_list.append(os.path.normpath(directory))
 
     return dir_list
@@ -137,7 +137,6 @@ def check_if_path_exists(path):
     else:   # lo strutturo in questo modo per sfruttare la lazy evaluation con un funzione pesante (os.listdir)
         if os.path.basename(path) in os.listdir(os.path.dirname(path)):
             return True
-
         else:
             return False
 
@@ -148,7 +147,6 @@ def find_removed_drive(drive_list):
     for drive in drive_list:
         if not os.path.exists(drive):
             return drive[:2]
-
     return None
 
 
@@ -254,10 +252,44 @@ def update_file_name(old_file_name):
         return old_file_name.replace("_{}.txt".format(old_prog), "_{}.txt".format(new_prog))
 
 
-def get_drive_list():       # NB: move to FileTransfer.py
+def get_drive_dict():       # NB: move to FileTransfer.py
     """Restituisce una lista degli hard disk presenti nel pc"""
-    drives = win32api.GetLogicalDriveStrings()
-    return drives.split('\000')[:-1]
+    drive_dict = {}
+    index = 0
+    for drive in win32api.GetLogicalDriveStrings().split('\000'):
+        if drive:
+            drive_dict[index] = drive[:1]
+            index += 1
+    return drive_dict
+
+
+def get_perc_font(len_str):
+    """La dimensione del font deve essere in funzione del numero di caratteri della stringa che deve essere inserita in
+    un'etichetta (per evitare tagli), creo quindi una funzione interpolante (polinomiale, metodo di Lagrange) a seconda
+    di alcuni punti (elencati qui sotto) per cui si ha un buon compromesso font_size/lunghezza caratteri"""
+    # TODO nb la dimensione finale è calcolata in base alle dimensioni della label che contiene la stringa, bisogna generalizzare
+
+    # 1° coppia (250, 0.32)
+    # 2° coppia (63, 0.5)
+    # 3° coppia (163, 0.37)
+    # 4° coppia (116, 0.42)
+    # 5° coppia (209, 0.324)
+    # 6° coppia (91, 0.45)
+
+    x_0, y_0 = 250, 0.32    # 250 estremo superiore
+    x_1, y_1 = 63, 0.5      # 63 estremo inferiore
+    x_2, y_2 = 163, 0.37    # valore contenuto tra x_0 e x_1
+
+    if len_str < x_1:       # se la lunghezza di len_str è minore dell'estremo inf o maggiore di quello sup. uso valori costanti
+        return y_1
+
+    elif len_str > x_0:
+        return y_0
+
+    else:   # se invece è contenuta nell'intervallo uso la funzione interpolante
+        return y_0 * ((len_str - x_1)/(x_0 - x_1)) * ((len_str - x_2)/(x_0 - x_2)) +\
+               y_1 * ((len_str - x_0)/(x_1 - x_0)) * ((len_str - x_2)/(x_1 - x_2)) +\
+               y_2 * ((len_str - x_0)/(x_2 - x_0)) * ((len_str - x_1)/(x_2 - x_1))
 
 
 if __name__ == "__main__":

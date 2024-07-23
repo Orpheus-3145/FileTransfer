@@ -1,0 +1,77 @@
+07/22/2024 00:02:35 | INFO      | ################################################################################
+07/22/2024 00:02:35 | INFO      | app avviata
+07/22/2024 00:02:35 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:02:35 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:02:54 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:02:55 | ERROR     | [FileTransfer   ]: errore - errore durante la lettura del percorso ..\compare\20240722_compare.txt: ENOENT
+07/22/2024 00:07:28 | INFO      | ################################################################################
+07/22/2024 00:07:28 | INFO      | app avviata
+07/22/2024 00:07:28 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:07:28 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:07:44 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:07:45 | ERROR     | [FileTransfer   ]: errore - errore durante la lettura del percorso ..\compare\20240722_compare.txt: No such file or directory
+07/22/2024 00:10:04 | INFO      | ################################################################################
+07/22/2024 00:10:04 | INFO      | app avviata
+07/22/2024 00:10:04 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:10:04 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:10:24 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:10:25 | ERROR     | [FileTransfer   ]: errore - errore durante la lettura del percorso ..\compare\20240722_compare.txt: No such file or directory
+07/22/2024 00:11:01 | INFO      | ################################################################################
+07/22/2024 00:11:01 | INFO      | app avviata
+07/22/2024 00:11:01 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:11:01 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:11:23 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:11:24 | ERROR     | [FileTransfer   ]: errore - errore durante la lettura del percorso C:\My Documents\INFO\Python\Projects\File Transfer\FileTransfer\..\compare\20240722_compare.txt: No such file or directory
+07/22/2024 00:13:30 | INFO      | ################################################################################
+07/22/2024 00:13:30 | INFO      | app avviata
+07/22/2024 00:13:30 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:13:30 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:14:01 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:15:43 | INFO      | ################################################################################
+07/22/2024 00:15:43 | INFO      | app avviata
+07/22/2024 00:15:43 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:15:43 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:16:00 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:16:48 | INFO      | ################################################################################
+07/22/2024 00:16:48 | INFO      | app avviata
+07/22/2024 00:16:48 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:16:48 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:17:07 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:18:18 | INFO      | ################################################################################
+07/22/2024 00:18:18 | INFO      | app avviata
+07/22/2024 00:18:18 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:18:18 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:18:39 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:21:48 | INFO      | ################################################################################
+07/22/2024 00:21:48 | INFO      | app avviata
+07/22/2024 00:21:48 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:21:48 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:22:17 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:23:03 | INFO      | ################################################################################
+07/22/2024 00:23:03 | INFO      | app avviata
+07/22/2024 00:23:03 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:23:03 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 00:23:19 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 00:23:20 | ERROR     | [FileTransfer   ]: errore - Errore generico, dettagli: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\repo\\repo'
+07/22/2024 00:24:54 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+07/22/2024 00:24:54 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 00:24:54 | INFO      | app chiusa
+07/22/2024 00:24:54 | INFO      | ################################################################################
+07/22/2024 17:51:44 | INFO      | ################################################################################
+07/22/2024 17:51:44 | INFO      | app avviata
+07/22/2024 17:51:44 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 17:51:44 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 17:52:11 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 17:52:12 | ERROR     | [FileTransfer   ]: errore - Errore generico, dettagli: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\repo\\repo'
+07/22/2024 18:16:50 | INFO      | ################################################################################
+07/22/2024 18:16:50 | INFO      | app avviata
+07/22/2024 18:16:50 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/22/2024 18:16:50 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+07/22/2024 18:17:11 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 18:17:12 | ERROR     | [FileTransfer   ]: errore - errore durante la lettura del percorso C:\$Recycle.Bin\S-1-5-18: Permission denied
+07/22/2024 18:18:38 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+07/22/2024 18:18:48 | ERROR     | [FileTransfer   ]: errore - errore durante la lettura del percorso C:\$Recycle.Bin\S-1-5-18: Permission denied
+07/23/2024 18:47:25 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+07/23/2024 18:47:25 | INFO      | [FileTransfer   ]: ********************************************************************************
+07/23/2024 18:47:25 | INFO      | app chiusa
+07/23/2024 18:47:25 | INFO      | ################################################################################

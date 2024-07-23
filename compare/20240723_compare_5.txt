@@ -1,0 +1,19 @@
+
+
+***
+
+File da copiare: 0
+File da eliminare: 0
+Cartelle da creare: 0
+Cartelle da eliminare: 0
+Totale azioni: 0
+
+Dimensione totale dei file da spostare: 0 b
+Dimensione totale dei file da eliminare: 0 b
+
+Tempo di esecuzione analisi: 0.00 sec
+
+
+***
+ERRORE IMPREVISTO: Errore generico, dettagli: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\repo\\repo\\AoC'
+***
