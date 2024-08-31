@@ -1,0 +1,19 @@
+REMOVE FILE
+file             ---> Fallout 3.doc
+size             ---> 32.50 Kb
+source           ---> D:\test_ft\B\TEST\Fallout 3
+
+COPY FILE
+file             ---> Tek 2.jpg
+size             ---> 178.54 Kb
+source           ---> D:\test_ft\A\TEST\Tekken 6
+destination      ---> D:\test_ft\B\TEST\Tekken 6
+
+***
+
+File da copiare: 1, size: 178.54 Kb
+File da eliminare: 1
+Cartelle da creare: 0
+Cartelle da eliminare: 0
+Totale azioni: 2
+

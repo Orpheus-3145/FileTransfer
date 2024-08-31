@@ -5,6 +5,7 @@ NEW FEATURE:
     | | differenza tempo di analisi quando la eseguo più volte
     | | aggiungere bottone per svuotare le label SRC e DSC
     | | aggiungere voce dopo l'analisi: 'ripeti analisi'
+    | | aggiungere categorie di file da ignorare, eg: Thumbs.db
 
 MODIFICHE:
 	| | cambio da venv a pipenv

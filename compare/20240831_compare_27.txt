@@ -1,0 +1,695 @@
+REMOVE DIRECTORY (R)
+directory        ---> asdadasdsad
+source           ---> D:\test_ft\B\TEST
+
+COPY DIRECTORY
+directory        ---> Empire Total War
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 44.00 Kb
+source           ---> D:\test_ft\A\TEST\Empire Total War
+destination      ---> D:\test_ft\B\TEST\Empire Total War
+
+COPY DIRECTORY
+directory        ---> screenshots
+source           ---> D:\test_ft\A\TEST\Empire Total War
+destination      ---> D:\test_ft\B\TEST\Empire Total War
+
+COPY FILE
+file             ---> empire.jpg
+size             ---> 101.32 Kb
+source           ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination      ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file             ---> il moschettiere.jpg
+size             ---> 208.05 Kb
+source           ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination      ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 44.00 Kb
+source           ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination      ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY DIRECTORY
+directory        ---> Far Cry 2
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> Far Cry 2.docx
+size             ---> 16.49 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2
+destination      ---> D:\test_ft\B\TEST\Far Cry 2
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 50.00 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2
+destination      ---> D:\test_ft\B\TEST\Far Cry 2
+
+COPY DIRECTORY
+directory        ---> screenshots
+source           ---> D:\test_ft\A\TEST\Far Cry 2
+destination      ---> D:\test_ft\B\TEST\Far Cry 2
+
+COPY FILE
+file             ---> far1.jpg
+size             ---> 455.67 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> far10.jpg
+size             ---> 117.74 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> far11.jpg
+size             ---> 164.70 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> far2.jpg
+size             ---> 413.82 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> far3.jpg
+size             ---> 329.40 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> far4.jpg
+size             ---> 428.68 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> far5.jpg
+size             ---> 456.76 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> far7.jpg
+size             ---> 105.88 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> far8.jpg
+size             ---> 33.67 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 8.00 Kb
+source           ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY DIRECTORY
+directory        ---> Gears of War 2
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> Gears of War 2.doc
+size             ---> 39.50 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2
+destination      ---> D:\test_ft\B\TEST\Gears of War 2
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 24.00 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2
+destination      ---> D:\test_ft\B\TEST\Gears of War 2
+
+COPY DIRECTORY
+directory        ---> screenshots
+source           ---> D:\test_ft\A\TEST\Gears of War 2
+destination      ---> D:\test_ft\B\TEST\Gears of War 2
+
+COPY FILE
+file             ---> gear10.jpg
+size             ---> 211.35 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> gear2.jpg
+size             ---> 222.03 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> gear3.jpg
+size             ---> 177.53 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> gear4.jpg
+size             ---> 255.92 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> gear5.jpg
+size             ---> 143.85 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> gear6.jpg
+size             ---> 135.10 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> gear7.jpg
+size             ---> 224.30 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> gear8.jpg
+size             ---> 195.04 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> gear9.jpg
+size             ---> 156.34 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 7.50 Kb
+source           ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination      ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY DIRECTORY
+directory        ---> James Bond quantum of solace
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> James Bond.doc
+size             ---> 28.50 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace
+
+COPY DIRECTORY
+directory        ---> screenshoots
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace
+
+COPY FILE
+file             ---> james 1.jpg
+size             ---> 102.69 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> james 10.jpg
+size             ---> 71.84 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> james 2.jpg
+size             ---> 193.14 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> james 3.jpg
+size             ---> 100.81 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> james 4.jpg
+size             ---> 114.43 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> james 6.jpg
+size             ---> 201.24 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> james 7.jpg
+size             ---> 72.39 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> james 8.jpg
+size             ---> 109.16 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> james 9.jpg
+size             ---> 138.22 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 36.50 Kb
+source           ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination      ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY DIRECTORY
+directory        ---> Prince of Persia
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> Prince of Persia.doc
+size             ---> 26.00 Kb
+source           ---> D:\test_ft\A\TEST\Prince of Persia
+destination      ---> D:\test_ft\B\TEST\Prince of Persia
+
+COPY DIRECTORY
+directory        ---> screenshots
+source           ---> D:\test_ft\A\TEST\Prince of Persia
+destination      ---> D:\test_ft\B\TEST\Prince of Persia
+
+COPY FILE
+file             ---> prince2.jpg
+size             ---> 148.20 Kb
+source           ---> D:\test_ft\A\TEST\Prince of Persia\screenshots
+destination      ---> D:\test_ft\B\TEST\Prince of Persia\screenshots
+
+COPY FILE
+file             ---> prince4.jpg
+size             ---> 49.81 Kb
+source           ---> D:\test_ft\A\TEST\Prince of Persia\screenshots
+destination      ---> D:\test_ft\B\TEST\Prince of Persia\screenshots
+
+COPY DIRECTORY
+directory        ---> Starcraft 2
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 106.00 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2
+destination      ---> D:\test_ft\B\TEST\Starcraft 2
+
+COPY DIRECTORY
+directory        ---> artwork
+source           ---> D:\test_ft\A\TEST\Starcraft 2
+destination      ---> D:\test_ft\B\TEST\Starcraft 2
+
+COPY FILE
+file             ---> baneling.jpg
+size             ---> 25.45 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> colossus.jpg
+size             ---> 83.07 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> crucio siede tank.jpg
+size             ---> 28.72 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> darktemplar.jpg
+size             ---> 24.46 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> ghost.jpg
+size             ---> 25.34 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> hydralisk.jpg
+size             ---> 26.17 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> immortal.jpg
+size             ---> 77.54 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> jim raynor.jpg
+size             ---> 19.25 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> jim raynor1.jpg
+size             ---> 50.11 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> koral.jpg
+size             ---> 48.11 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> mutalisk.jpg
+size             ---> 51.30 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> nomad.jpg
+size             ---> 59.42 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> repear.jpg
+size             ---> 22.90 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> repear1.jpg
+size             ---> 60.17 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> stalker.jpg
+size             ---> 25.70 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> terrestre.jpg
+size             ---> 23.07 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> terrestre1.jpg
+size             ---> 32.36 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> terrestre3.jpg
+size             ---> 59.15 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> terrestre4.jpg
+size             ---> 47.73 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> the diabolic devil angel.jpg
+size             ---> 53.96 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> the zerg is dead.jpg
+size             ---> 65.60 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> thor.jpg
+size             ---> 26.64 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 113.50 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> viking.jpg
+size             ---> 63.40 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> zealot.jpg
+size             ---> 82.02 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> zeratul.jpg
+size             ---> 61.14 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> zerg.jpg
+size             ---> 61.54 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file             ---> zerg1.jpg
+size             ---> 90.75 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY DIRECTORY
+directory        ---> screenshot
+source           ---> D:\test_ft\A\TEST\Starcraft 2
+destination      ---> D:\test_ft\B\TEST\Starcraft 2
+
+COPY FILE
+file             ---> st.jpg
+size             ---> 163.93 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st1.jpg
+size             ---> 144.80 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st10.jpg
+size             ---> 192.20 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st11.jpg
+size             ---> 218.54 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st12.jpg
+size             ---> 198.52 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st13.jpg
+size             ---> 143.24 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st14.jpg
+size             ---> 188.71 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st15.jpg
+size             ---> 377.59 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st2.jpg
+size             ---> 201.99 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st3.jpg
+size             ---> 182.39 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st4.jpg
+size             ---> 179.81 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st5.jpg
+size             ---> 145.20 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st6.jpg
+size             ---> 156.83 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st7.jpg
+size             ---> 131.65 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st8.jpg
+size             ---> 212.89 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> st9.jpg
+size             ---> 149.39 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 1.jpg
+size             ---> 182.39 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 10.jpg
+size             ---> 163.93 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 11.jpg
+size             ---> 131.65 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 12.jpg
+size             ---> 156.83 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 13.jpg
+size             ---> 377.59 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 2.jpg
+size             ---> 179.81 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 3.jpg
+size             ---> 145.20 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 4.jpg
+size             ---> 179.48 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 5.jpg
+size             ---> 188.71 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 6.jpg
+size             ---> 201.99 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 7.jpg
+size             ---> 132.82 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 8.jpg
+size             ---> 232.70 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> star 9.jpg
+size             ---> 260.18 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> ststarcraft 2.jpg
+size             ---> 307.99 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 69.00 Kb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file             ---> Zerg_Reveal_FINAL_EnglishGB_XVid.avi
+size             ---> 133.69 Mb
+source           ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination      ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+***
+
+File da copiare: 103, size: 146.95 Mb
+File da eliminare: 0
+Cartelle da creare: 13
+Cartelle da eliminare: 1
+Totale azioni: 117
+

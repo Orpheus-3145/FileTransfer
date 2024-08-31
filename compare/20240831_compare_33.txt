@@ -1,0 +1,34 @@
+REMOVE DIRECTORY (R)
+directory        ---> Tom Rider
+source           ---> D:\test_ft\B\TEST
+
+COPY DIRECTORY
+directory        ---> Assassin Creed 2
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> Assassin Creed 2.docx
+size             ---> 15.16 Kb
+source           ---> D:\test_ft\A\TEST\Assassin Creed 2
+destination      ---> D:\test_ft\B\TEST\Assassin Creed 2
+
+REMOVE FILE
+file             ---> Far Cry 2.docx
+size             ---> 16.49 Kb
+source           ---> D:\test_ft\B\TEST\Far Cry 2
+
+COPY FILE
+file             ---> Uncharted.doc
+size             ---> 26.50 Kb
+source           ---> D:\test_ft\A\TEST\Uncharted drake's fortune
+destination      ---> D:\test_ft\B\TEST\Uncharted drake's fortune
+
+***
+
+File da copiare: 2, size: 41.66 Kb
+File da eliminare: 1
+Cartelle da creare: 1
+Cartelle da eliminare: 1
+Totale azioni: 5
+

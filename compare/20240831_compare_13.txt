@@ -1,0 +1,1667 @@
+COPY DIRECTORY (R)
+directory:       ---> Age of Empires 3 asian dynasties
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Age of Empires III.docx
+size:            ---> 104547
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 105984
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY DIRECTORY (R)
+directory:       ---> artwork
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY FILE
+file:            ---> aoe.jpg
+size:            ---> 53303
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\artwork
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\artwork
+
+COPY FILE
+file:            ---> aoe17.jpg
+size:            ---> 264193
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\artwork
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\artwork
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 29184
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\artwork
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\artwork
+
+COPY DIRECTORY (R)
+directory:       ---> screenshot
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY FILE
+file:            ---> aoe1.jpg
+size:            ---> 153298
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe10.jpg
+size:            ---> 99838
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe11.jpg
+size:            ---> 183836
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe12.jpg
+size:            ---> 154752
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe13.jpg
+size:            ---> 185464
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe14.jpg
+size:            ---> 158570
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe15.jpg
+size:            ---> 165452
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe16.jpg
+size:            ---> 360032
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe18.jpg
+size:            ---> 382724
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe2.jpg
+size:            ---> 193725
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe3.jpg
+size:            ---> 189367
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe4.jpg
+size:            ---> 162720
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe5.jpg
+size:            ---> 162638
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe6.jpg
+size:            ---> 185056
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe7.jpg
+size:            ---> 186231
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe8.jpg
+size:            ---> 133242
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> aoe9.jpg
+size:            ---> 124033
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 78848
+source:          ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination:     ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY DIRECTORY (R)
+directory:       ---> Assassin Creed 2
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Assassin Creed 2.docx
+size:            ---> 15520
+source:          ---> D:\test_ft\A\TEST\Assassin Creed 2
+destination:     ---> D:\test_ft\B\TEST\Assassin Creed 2
+
+COPY DIRECTORY (R)
+directory:       ---> Brother in Arms hell's highway
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Brother in arms.doc
+size:            ---> 91648
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 45568
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway
+
+COPY FILE
+file:            ---> brother 10.jpg
+size:            ---> 111948
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> brother2.jpg
+size:            ---> 30894
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> brother3.jpg
+size:            ---> 56558
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> brother4.jpg
+size:            ---> 46476
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> brother5.jpg
+size:            ---> 94803
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> brother6.jpg
+size:            ---> 48726
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> brother7.jpg
+size:            ---> 56362
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> brother8.jpg
+size:            ---> 331611
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> brother9.bmp
+size:            ---> 392462
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 45568
+source:          ---> D:\test_ft\A\TEST\Brother in Arms hell's highway\screenshots
+destination:     ---> D:\test_ft\B\TEST\Brother in Arms hell's highway\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> Call of Duty world at war
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Call of Duty.doc
+size:            ---> 25088
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war
+
+COPY FILE
+file:            ---> call1.jpg
+size:            ---> 129096
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call10.jpg
+size:            ---> 284948
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call2.jpg
+size:            ---> 107931
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call3.jpg
+size:            ---> 96603
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call4.jpg
+size:            ---> 138735
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call5.jpg
+size:            ---> 168626
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call6.bmp
+size:            ---> 1101654
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call7.jpg
+size:            ---> 57720
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call8.jpg
+size:            ---> 174652
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY FILE
+file:            ---> call9.bmp
+size:            ---> 642178
+source:          ---> D:\test_ft\A\TEST\Call of Duty world at war\screenshots
+destination:     ---> D:\test_ft\B\TEST\Call of Duty world at war\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> Dawn of War
+size:            ---> 8192
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Dawn of war II.docx
+size:            ---> 17654
+source:          ---> D:\test_ft\A\TEST\Dawn of War
+destination:     ---> D:\test_ft\B\TEST\Dawn of War
+
+COPY DIRECTORY (R)
+directory:       ---> artworks
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Dawn of War
+destination:     ---> D:\test_ft\B\TEST\Dawn of War
+
+COPY FILE
+file:            ---> 8.jpg
+size:            ---> 79706
+source:          ---> D:\test_ft\A\TEST\Dawn of War\artworks
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\artworks
+
+COPY FILE
+file:            ---> dawn 2.jpg
+size:            ---> 197801
+source:          ---> D:\test_ft\A\TEST\Dawn of War\artworks
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\artworks
+
+COPY FILE
+file:            ---> dawn 3.jpg
+size:            ---> 57961
+source:          ---> D:\test_ft\A\TEST\Dawn of War\artworks
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\artworks
+
+COPY FILE
+file:            ---> dawn 4.jpg
+size:            ---> 293968
+source:          ---> D:\test_ft\A\TEST\Dawn of War\artworks
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\artworks
+
+COPY FILE
+file:            ---> dawn 5.jpg
+size:            ---> 27953
+source:          ---> D:\test_ft\A\TEST\Dawn of War\artworks
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\artworks
+
+COPY FILE
+file:            ---> dawn 6.jpg
+size:            ---> 109465
+source:          ---> D:\test_ft\A\TEST\Dawn of War\artworks
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\artworks
+
+COPY FILE
+file:            ---> dawn 7.jpg
+size:            ---> 19948
+source:          ---> D:\test_ft\A\TEST\Dawn of War\artworks
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\artworks
+
+COPY FILE
+file:            ---> dawn.jpg
+size:            ---> 41284
+source:          ---> D:\test_ft\A\TEST\Dawn of War\artworks
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\artworks
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Dawn of War
+destination:     ---> D:\test_ft\B\TEST\Dawn of War
+
+COPY FILE
+file:            ---> dawn 11.jpg
+size:            ---> 57839
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 12.jpg
+size:            ---> 137498
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 13.jpg
+size:            ---> 50645
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 14.jpg
+size:            ---> 223284
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 2.jpg
+size:            ---> 64118
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 3.jpg
+size:            ---> 120778
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 4.jpg
+size:            ---> 67129
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 5.jpg
+size:            ---> 75908
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 6.jpg
+size:            ---> 69653
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 7.jpg
+size:            ---> 153974
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 8.jpg
+size:            ---> 118395
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn 9.jpg
+size:            ---> 116258
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY FILE
+file:            ---> dawn.jpg
+size:            ---> 120461
+source:          ---> D:\test_ft\A\TEST\Dawn of War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Dawn of War\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> Empire Total War
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 45056
+source:          ---> D:\test_ft\A\TEST\Empire Total War
+destination:     ---> D:\test_ft\B\TEST\Empire Total War
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Empire Total War
+destination:     ---> D:\test_ft\B\TEST\Empire Total War
+
+COPY FILE
+file:            ---> empire.jpg
+size:            ---> 103753
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire1.jpg
+size:            ---> 182219
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire10.jpg
+size:            ---> 90936
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire3.jpg
+size:            ---> 115429
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire4.jpg
+size:            ---> 186352
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire5.jpg
+size:            ---> 263594
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire6.jpg
+size:            ---> 192138
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire7.jpg
+size:            ---> 323705
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire8.jpg
+size:            ---> 243427
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> empire9.jpg
+size:            ---> 215692
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> il moschettiere.jpg
+size:            ---> 213039
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 45056
+source:          ---> D:\test_ft\A\TEST\Empire Total War\screenshots
+destination:     ---> D:\test_ft\B\TEST\Empire Total War\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> Fallout 3
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Fallout 3.doc
+size:            ---> 33280
+source:          ---> D:\test_ft\A\TEST\Fallout 3
+destination:     ---> D:\test_ft\B\TEST\Fallout 3
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 50688
+source:          ---> D:\test_ft\A\TEST\Fallout 3
+destination:     ---> D:\test_ft\B\TEST\Fallout 3
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Fallout 3
+destination:     ---> D:\test_ft\B\TEST\Fallout 3
+
+COPY FILE
+file:            ---> fall1.jpg
+size:            ---> 191164
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall10.jpg
+size:            ---> 140099
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall11.jpg
+size:            ---> 137415
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall2.jpg
+size:            ---> 168122
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall3.jpg
+size:            ---> 245728
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall4.jpg
+size:            ---> 150313
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall5.jpg
+size:            ---> 210263
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall6.jpg
+size:            ---> 207905
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall7.bmp
+size:            ---> 2764854
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall8.jpg
+size:            ---> 151722
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> fall9.jpg
+size:            ---> 142920
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 8192
+source:          ---> D:\test_ft\A\TEST\Fallout 3\screenshots
+destination:     ---> D:\test_ft\B\TEST\Fallout 3\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> Far Cry 2
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Far Cry 2.docx
+size:            ---> 16884
+source:          ---> D:\test_ft\A\TEST\Far Cry 2
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 51200
+source:          ---> D:\test_ft\A\TEST\Far Cry 2
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Far Cry 2
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2
+
+COPY FILE
+file:            ---> far1.jpg
+size:            ---> 466608
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> far10.jpg
+size:            ---> 120563
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> far11.jpg
+size:            ---> 168657
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> far2.jpg
+size:            ---> 423747
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> far3.jpg
+size:            ---> 337301
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> far4.jpg
+size:            ---> 438966
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> far5.jpg
+size:            ---> 467727
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> far7.jpg
+size:            ---> 108421
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> far8.jpg
+size:            ---> 34473
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 8192
+source:          ---> D:\test_ft\A\TEST\Far Cry 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Far Cry 2\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> Gears of War 2
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Gears of War 2.doc
+size:            ---> 40448
+source:          ---> D:\test_ft\A\TEST\Gears of War 2
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 24576
+source:          ---> D:\test_ft\A\TEST\Gears of War 2
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Gears of War 2
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2
+
+COPY FILE
+file:            ---> gear10.jpg
+size:            ---> 216420
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> gear2.jpg
+size:            ---> 227361
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> gear3.jpg
+size:            ---> 181794
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> gear4.jpg
+size:            ---> 262064
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> gear5.jpg
+size:            ---> 147303
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> gear6.jpg
+size:            ---> 138339
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> gear7.jpg
+size:            ---> 229686
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> gear8.jpg
+size:            ---> 199718
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> gear9.jpg
+size:            ---> 160092
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 7680
+source:          ---> D:\test_ft\A\TEST\Gears of War 2\screenshots
+destination:     ---> D:\test_ft\B\TEST\Gears of War 2\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> James Bond quantum of solace
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> James Bond.doc
+size:            ---> 29184
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace
+
+COPY DIRECTORY (R)
+directory:       ---> screenshoots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace
+
+COPY FILE
+file:            ---> james 1.jpg
+size:            ---> 105157
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> james 10.jpg
+size:            ---> 73567
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> james 2.jpg
+size:            ---> 197771
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> james 3.jpg
+size:            ---> 103228
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> james 4.jpg
+size:            ---> 117174
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> james 6.jpg
+size:            ---> 206072
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> james 7.jpg
+size:            ---> 74127
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> james 8.jpg
+size:            ---> 111781
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> james 9.jpg
+size:            ---> 141533
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 37376
+source:          ---> D:\test_ft\A\TEST\James Bond quantum of solace\screenshoots
+destination:     ---> D:\test_ft\B\TEST\James Bond quantum of solace\screenshoots
+
+COPY DIRECTORY (R)
+directory:       ---> Prince of Persia
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Prince of Persia.doc
+size:            ---> 26624
+source:          ---> D:\test_ft\A\TEST\Prince of Persia
+destination:     ---> D:\test_ft\B\TEST\Prince of Persia
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Prince of Persia
+destination:     ---> D:\test_ft\B\TEST\Prince of Persia
+
+COPY FILE
+file:            ---> prince2.jpg
+size:            ---> 151756
+source:          ---> D:\test_ft\A\TEST\Prince of Persia\screenshots
+destination:     ---> D:\test_ft\B\TEST\Prince of Persia\screenshots
+
+COPY FILE
+file:            ---> prince4.jpg
+size:            ---> 51002
+source:          ---> D:\test_ft\A\TEST\Prince of Persia\screenshots
+destination:     ---> D:\test_ft\B\TEST\Prince of Persia\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> Splinter Cell convition
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Splinter Cell.docx
+size:            ---> 15375
+source:          ---> D:\test_ft\A\TEST\Splinter Cell convition
+destination:     ---> D:\test_ft\B\TEST\Splinter Cell convition
+
+COPY DIRECTORY (R)
+directory:       ---> Starcraft 2
+size:            ---> 8192
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 108544
+source:          ---> D:\test_ft\A\TEST\Starcraft 2
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2
+
+COPY DIRECTORY (R)
+directory:       ---> artwork
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Starcraft 2
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2
+
+COPY FILE
+file:            ---> baneling.jpg
+size:            ---> 26060
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> colossus.jpg
+size:            ---> 85066
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> crucio siede tank.jpg
+size:            ---> 29406
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> darktemplar.jpg
+size:            ---> 25046
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> ghost.jpg
+size:            ---> 25952
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> hydralisk.jpg
+size:            ---> 26802
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> immortal.jpg
+size:            ---> 79399
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> jim raynor.jpg
+size:            ---> 19711
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> jim raynor1.jpg
+size:            ---> 51315
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> koral.jpg
+size:            ---> 49262
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> mutalisk.jpg
+size:            ---> 52536
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> nomad.jpg
+size:            ---> 60849
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> repear.jpg
+size:            ---> 23445
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> repear1.jpg
+size:            ---> 61618
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> stalker.jpg
+size:            ---> 26315
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> terrestre.jpg
+size:            ---> 23621
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> terrestre1.jpg
+size:            ---> 33137
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> terrestre3.jpg
+size:            ---> 60572
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> terrestre4.jpg
+size:            ---> 48880
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> the diabolic devil angel.jpg
+size:            ---> 55253
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> the zerg is dead.jpg
+size:            ---> 67174
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> thor.jpg
+size:            ---> 27284
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 116224
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> viking.jpg
+size:            ---> 64922
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> zealot.jpg
+size:            ---> 83990
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> zeratul.jpg
+size:            ---> 62607
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> zerg.jpg
+size:            ---> 63015
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY FILE
+file:            ---> zerg1.jpg
+size:            ---> 92930
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\artwork
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\artwork
+
+COPY DIRECTORY (R)
+directory:       ---> screenshot
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Starcraft 2
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2
+
+COPY FILE
+file:            ---> st.jpg
+size:            ---> 167865
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st1.jpg
+size:            ---> 148277
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st10.jpg
+size:            ---> 196813
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st11.jpg
+size:            ---> 223789
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st12.jpg
+size:            ---> 203288
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st13.jpg
+size:            ---> 146674
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st14.jpg
+size:            ---> 193239
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st15.jpg
+size:            ---> 386648
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st2.jpg
+size:            ---> 206837
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st3.jpg
+size:            ---> 186771
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st4.jpg
+size:            ---> 184125
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st5.jpg
+size:            ---> 148687
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st6.jpg
+size:            ---> 160596
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st7.jpg
+size:            ---> 134808
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st8.jpg
+size:            ---> 217997
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> st9.jpg
+size:            ---> 152977
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 1.jpg
+size:            ---> 186771
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 10.jpg
+size:            ---> 167865
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 11.jpg
+size:            ---> 134808
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 12.jpg
+size:            ---> 160596
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 13.jpg
+size:            ---> 386648
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 2.jpg
+size:            ---> 184125
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 3.jpg
+size:            ---> 148687
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 4.jpg
+size:            ---> 183791
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 5.jpg
+size:            ---> 193239
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 6.jpg
+size:            ---> 206837
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 7.jpg
+size:            ---> 136003
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 8.jpg
+size:            ---> 238280
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> star 9.jpg
+size:            ---> 266425
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> ststarcraft 2.jpg
+size:            ---> 315379
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 70656
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY FILE
+file:            ---> Zerg_Reveal_FINAL_EnglishGB_XVid.avi
+size:            ---> 140186218
+source:          ---> D:\test_ft\A\TEST\Starcraft 2\screenshot
+destination:     ---> D:\test_ft\B\TEST\Starcraft 2\screenshot
+
+COPY DIRECTORY (R)
+directory:       ---> Tekken 6
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Tek 1.jpg
+size:            ---> 209328
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 10.jpg
+size:            ---> 151324
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 11.jpg
+size:            ---> 144410
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 12.jpg
+size:            ---> 176281
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 2.jpg
+size:            ---> 182825
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 3.jpg
+size:            ---> 60436
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 4.jpg
+size:            ---> 71987
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 5.jpg
+size:            ---> 171024
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 6.jpg
+size:            ---> 193130
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 7.jpg
+size:            ---> 173734
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 8.jpg
+size:            ---> 131950
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tek 9.jpg
+size:            ---> 157020
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY FILE
+file:            ---> Tekken 6.docx
+size:            ---> 12724
+source:          ---> D:\test_ft\A\TEST\Tekken 6
+destination:     ---> D:\test_ft\B\TEST\Tekken 6
+
+COPY DIRECTORY (R)
+directory:       ---> Tom Rider
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 19456
+source:          ---> D:\test_ft\A\TEST\Tom Rider
+destination:     ---> D:\test_ft\B\TEST\Tom Rider
+
+COPY FILE
+file:            ---> Tom Rider.doc
+size:            ---> 27136
+source:          ---> D:\test_ft\A\TEST\Tom Rider
+destination:     ---> D:\test_ft\B\TEST\Tom Rider
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Tom Rider
+destination:     ---> D:\test_ft\B\TEST\Tom Rider
+
+COPY FILE
+file:            ---> tom1.jpg
+size:            ---> 44247
+source:          ---> D:\test_ft\A\TEST\Tom Rider\screenshots
+destination:     ---> D:\test_ft\B\TEST\Tom Rider\screenshots
+
+COPY FILE
+file:            ---> tom2.jpg
+size:            ---> 727338
+source:          ---> D:\test_ft\A\TEST\Tom Rider\screenshots
+destination:     ---> D:\test_ft\B\TEST\Tom Rider\screenshots
+
+COPY FILE
+file:            ---> tom3.jpg
+size:            ---> 156919
+source:          ---> D:\test_ft\A\TEST\Tom Rider\screenshots
+destination:     ---> D:\test_ft\B\TEST\Tom Rider\screenshots
+
+COPY FILE
+file:            ---> tom4.jpg
+size:            ---> 156919
+source:          ---> D:\test_ft\A\TEST\Tom Rider\screenshots
+destination:     ---> D:\test_ft\B\TEST\Tom Rider\screenshots
+
+COPY FILE
+file:            ---> tom5.jpg
+size:            ---> 201177
+source:          ---> D:\test_ft\A\TEST\Tom Rider\screenshots
+destination:     ---> D:\test_ft\B\TEST\Tom Rider\screenshots
+
+COPY FILE
+file:            ---> tom6.jpg
+size:            ---> 216663
+source:          ---> D:\test_ft\A\TEST\Tom Rider\screenshots
+destination:     ---> D:\test_ft\B\TEST\Tom Rider\screenshots
+
+COPY FILE
+file:            ---> tom7.jpg
+size:            ---> 214507
+source:          ---> D:\test_ft\A\TEST\Tom Rider\screenshots
+destination:     ---> D:\test_ft\B\TEST\Tom Rider\screenshots
+
+COPY FILE
+file:            ---> tom8.jpg
+size:            ---> 197214
+source:          ---> D:\test_ft\A\TEST\Tom Rider\screenshots
+destination:     ---> D:\test_ft\B\TEST\Tom Rider\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> Uncharted drake's fortune
+size:            ---> 4096
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> Thumbs.db
+size:            ---> 40448
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune
+
+COPY FILE
+file:            ---> Uncharted.doc
+size:            ---> 27136
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune
+
+COPY DIRECTORY (R)
+directory:       ---> screenshots
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune
+
+COPY FILE
+file:            ---> fortune1.jpg
+size:            ---> 574557
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune10.jpg
+size:            ---> 1013884
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune11.jpg
+size:            ---> 815864
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune2.jpg
+size:            ---> 1012862
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune3.jpg
+size:            ---> 500530
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune4.jpg
+size:            ---> 429230
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune5.jpg
+size:            ---> 614841
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune6.jpg
+size:            ---> 996460
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune7.jpg
+size:            ---> 830858
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune8.jpg
+size:            ---> 741934
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY FILE
+file:            ---> fortune9.jpg
+size:            ---> 803001
+source:          ---> D:\test_ft\A\TEST\Uncharted drake's fortune\screenshots
+destination:     ---> D:\test_ft\B\TEST\Uncharted drake's fortune\screenshots
+
+COPY DIRECTORY (R)
+directory:       ---> World in conflict soviet assault
+size:            ---> 0
+source:          ---> D:\test_ft\A\TEST
+destination:     ---> D:\test_ft\B\TEST
+
+COPY FILE
+file:            ---> world 10.jpg
+size:            ---> 20627
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world 2.jpg
+size:            ---> 98484
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world 3.jpg
+size:            ---> 61449
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world 4.jpg
+size:            ---> 141215
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world 5.jpg
+size:            ---> 145668
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world 6.jpg
+size:            ---> 149408
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world 7.jpg
+size:            ---> 135996
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world 8.jpg
+size:            ---> 162493
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world 9.jpg
+size:            ---> 59575
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> World in conflict.docx
+size:            ---> 14014
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+COPY FILE
+file:            ---> world.jpg
+size:            ---> 4873
+source:          ---> D:\test_ft\A\TEST\World in conflict soviet assault
+destination:     ---> D:\test_ft\B\TEST\World in conflict soviet assault
+
+***
+
+File da copiare: 243
+File da eliminare: 0
+Cartelle da creare: 33
+Cartelle da eliminare: 0
+Totale azioni: 276
+
+Dimensione totale dei file da spostare: 175.58 Mb
+Dimensione totale dei file da eliminare: 0 b
+

@@ -1,0 +1,11 @@
+***
+
+File da copiare: 0
+File da eliminare: 0
+Cartelle da creare: 0
+Cartelle da eliminare: 0
+Totale azioni: 0
+
+Dimensione totale dei file da spostare: 0 b
+Dimensione totale dei file da eliminare: 0 b
+
