@@ -1,0 +1,25 @@
+---
+action           ---> CREA CARTELLA
+entity           ---> repo
+size             ---> 23.80 Mb
+source_path      ---> C:\repo
+destination_path ---> C:\
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> repo
+size             ---> 30.42 Mb
+destination_path ---> C:\Users\franc\Desktop\repo
+
+***
+
+File da copiare: 236
+File da eliminare: 100
+Cartelle da creare: 164
+Cartelle da eliminare: 18
+Totale azioni: 518
+
+Dimensione totale dei file da spostare: 23.80 Mb
+Dimensione totale dei file da eliminare: 30.42 Mb
+
+Tempo di esecuzione analisi: 0.07 sec
+

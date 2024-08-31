@@ -1,99 +1,7 @@
 #:import Factory kivy.factory.Factory
 #:import get_perc_font Tools.get_perc_font
 
-<MainPopup>:
-    auto_dismiss: False
-
-    FloatLayout:
-        canvas:
-            Rectangle:
-                size: self.size
-                source: BK_IMAGE
-
-        MyDefaultLabel:
-            text: "FILE TRANSFER"
-            bold: True
-            size_hint: 0.7, 0.15
-            pos_hint: {"x": 0.15, "y": 0.8}
-
-        MyDefaultLabel:
-            text: "Seleziona la cartella d'origine che aggiornerà i contenuti della cartella di destinazione"
-            size_hint: 0.5, 0.17
-            pos_hint: {"x": 0.02, "y": 0.6}
-            font_size: FONT_SIZE * 0.5
-            valign: "top"
-            halign: "left"
-
-        Button:
-            background_color: 0, 0, 0, 0
-            size_hint: 0.04, 0.04 * 4/3
-            pos_hint: {"x": 0.47, "y": 0.61}
-
-            on_press:
-                Factory.InfoPopup().open()
-
-            canvas:
-                Rectangle:
-                    pos: self.pos
-                    size: self.size
-                    source: LOGO
-
-        MyDefaultButton:
-            text: "ORIGINE"
-            size_hint: 0.3, 0.12
-            pos_hint: {"x": 0.02, "y": 0.41}
-            font_size: FONT_SIZE * 0.65
-            bold: True
-            bkg_color: LIGHTNORMGREEN_RGBA
-
-            on_release:
-                Factory.SetFolderPopup(type_folder="S", label_to_update=source_lbl).open()
-
-
-        MyDefaultButton:
-            text: "DESTINAZIONE"
-            size_hint: 0.3, 0.12
-            pos_hint: {"x": 0.02, "y": 0.215}
-            font_size: FONT_SIZE * 0.65
-            bold: True
-            bkg_color: LIGHTNORMGREEN_RGBA
-
-            on_release:
-                Factory.SetFolderPopup(type_folder="D", label_to_update=destination_lbl).open()
-
-        MyAppearingLabel:
-            id: source_lbl
-            size_hint: 0.65, 0.12
-            pos_hint: {"x": 0.33, "y": 0.41}
-            font_size: FONT_SIZE * 0.55
-
-        MyAppearingLabel:
-            id: destination_lbl
-            size_hint: 0.65, 0.12
-            pos_hint: {"x": 0.33, "y": 0.215}
-            font_size: FONT_SIZE * 0.55
-
-        MyDefaultButton:
-            id: start_analisys_btn
-            text: "AVVIA ANALISI"
-            size_hint: 0.5, 0.12
-            pos_hint: {"x": 0.16, "y": 0.02}
-            bold: True
-            bkg_color: LIGHTNORMGREEN_RGBA
-            opacity: 0
-
-            on_release:
-                app.start_analysis()
-
-        MyDefaultCloseButton:
-            text: "CHIUDI"
-            size_hint: 0.23, 0.1              # si presume che dimensioni e posizione siano sempre le stesse, pertanto hanno il
-            pos_hint: {"x": 0.74, "y": 0.02}    # default, il floalayout in cui è contenuto è size=[1, 1], (x,y)=(0, 0)
-            bkg_color: RED_RGBA
-
-
 <SetFolderPopup>:
-    auto_dismiss: False
     size_hint: 0.7, 0.8
     pos_hint: {"x": 0.15, "y": 0.05}
 
@@ -104,101 +12,81 @@
             pos_hint: {"x": 0.025, "y": 0.25}
             font_name: FONT_NAME
 
-        MyDefaultBoxLayout:
+        DefaultLayout:
             orientation: "horizontal"
             size_hint: 0.9, 0.17
             pos_hint: {"x": 0.05, "y": 0.05}
 
-            MyDefaultButton:
+            DefaultButton:
                 text: "ANNULLA"
                 bold: True
-                font_size: FONT_SIZE * 0.6
-
-                on_release:
+                font_size_scale: 0.6
+                on_press:
                     root.dismiss()
 
-            MyDefaultButton:
+            DefaultButton:
                 text: "CAMBIA UNITà DI MEMORIA".upper()
                 bold: True
-                font_size: FONT_SIZE * 0.4
+                font_size_scale: 0.4
+                on_press:
+                    root.open_drive_popup()
 
-                on_release:
-                    Factory.SetDrivePopup(filechooser_to_update=root.ids.filechooser).open()
-
-            MyDefaultButton:
+            DefaultButton:
                 text: "SELEZIONA"
                 bold: True
-                font_size: FONT_SIZE * 0.5
-
-                on_release:
-                    root.selected_path = filechooser.path
-                    root.dismiss()
-
+                font_size_scale: 0.5
+                on_press:
+                    root.set_path()
 
 <SetDrivePopup>:
-    auto_dismiss: False
     size_hint: [0.3, 0.4]
     pos_hint: {"x": 0.35, "y": 0.3}
 
     FloatLayout:
-        MyDefaultGridLayout:    # NB mi serve un tipo gridlayout in modo tale che i vari drive accessibili vengano elencati dall'alto verso il basso
+        ButtonDynamicInputLayout:
             id: drive_layout
-            cols: 1
             size_hint: 0.5, 0.75
             pos_hint: {"x": 0.25, "y": 0.2}
 
-        MyDefaultButton:
+        DefaultButton:
             text: "ANNULLA"
             bold: True
-            font_size: FONT_SIZE * 0.6
+            font_size_scale: 0.6
             size_hint: 0.8, 0.15
             pos_hint: {"x": 0.1, "y": 0.05}
-
-            on_release:
+            on_press:
                 root.dismiss()
 
 
 <AnalyzerPopup>:
-    auto_dismiss: False
     size_hint: 0.37, 0.6
     pos_hint: {"x": 0.315, "y": 0.2}
 
     FloatLayout:
-        MyDefaultLabel:
+        DefaultLabel:
             text: "ANALISI\nTERMINATA"
             bold: True
             size_hint: 0.9, 0.255
             pos_hint: {"x": 0.05, "y": 0.72}
-            font_size: FONT_SIZE * 0.7
+            font_size_scale: 0.7
 
-        MyDefaultButton:
+        DefaultButton:
             text: "APRI MODIFICHE"
             bold: True
             size_hint: 0.9, 0.2
             pos_hint: {"x": 0.05, "y": 0.5}
-            font_size: FONT_SIZE * 0.55
+            font_size_scale: 0.55
+            on_press:
+                app.inspect_compare_file()
 
-            on_release:
-                app.get_compare_file()
-
-        MyDefaultButton:
-            text: "TRASFERISCI FILE"
-            bold: True
-            size_hint: 0.9, 0.2
-            pos_hint: {"x": 0.05, "y": 0.275}
-            font_size: FONT_SIZE * 0.55
-
-            on_release:
-                app.start_transfer(popup_to_close=root)
-
-        MyDefaultButton:
-            text: "ANNULLA"
+        DefaultButton:
+            text: "CHIUDI"
             bold: True
             size_hint: 0.9, 0.2
             pos_hint: {"x": 0.05, "y": 0.05}
-            font_size: FONT_SIZE * 0.6
+            font_size_scale: 0.6
 
-            on_release:
+            on_press:
                 root.dismiss()
 
 
@@ -216,13 +104,12 @@
             pos_hint: {"x": 0, "y": 0}
 
 <TransferPopup>:
-    auto_dismiss: False
     size_hint: 0.35, 0.4
     pos_hint: {"x": 0.325, "y": 0.3}
 
     FloatLayout:
         MyDefaultLabel:
-            text: "TRASFERIMENTO TERMINATO!"
+            text: "TRASFERIMENTO TERMINATO"
             bold: True
             font_size: FONT_SIZE * 0.55
             size_hint: 0.9, 0.55
@@ -234,7 +121,7 @@
             size_hint: 0.9, 0.3
             pos_hint: {"x": 0.05, "y": 0.05}
 
-            on_release:
+            on_press:
                 root.dismiss()
 
 
@@ -243,34 +130,33 @@
     size_hint: 0.4, 0.45
     pos_hint: {"x": 0.3, "y": 0.275}
 
-    MyDefaultBoxLayout:
-        padding: 0
+    DefaultLayout:
         size_hint: 0.85, 0.9
         pos_hint: {"x": 0.075, "y": 0.05}
 
-        MyDefaultLabel:
-            text: "ERRORE!"
+        DefaultLabel:
+            text: "ERRORE"
             bold: True
-            color: 1, 1, 1, 1
-            bkg_color: RED_RGBA
+            color: WHITE_RGBA
+            background_color: RED_RGBA
             size_hint_y: 0.25
-            font_size: FONT_SIZE * 0.7
+            font_size_scale: 0.7
 
-        MyDefaultLabel:
+        DefaultLabel:
             text: root.error_text
             italic: True
-            color: 1, 1, 1, 1
-            bkg_color: RED_RGBA
+            color: WHITE_RGBA
+            background_color: RED_RGBA
             size_hint_y: 0.55
             font_size: FONT_SIZE * get_perc_font(len(root.error_text))
 
-        MyDefaultButton:
+        DefaultButton:
             text: "CHIUDI"
             bold: True
-            font_size: FONT_SIZE * 0.7
+            font_size_scale: 0.7
             size_hint_y: 0.2
 
-            on_release:
+            on_press:
                 root.dismiss()
 
 
@@ -278,7 +164,7 @@
     size_hint: 0.6, 0.6
     pos_hint: {"x": 0.2, "y": 0.2}
 
-    MyDefaultLabel:
+    DefaultLabel:
         text: "[b]FileTransfer[/b]: programma che allinea una cartella con una sua versione più aggiornata; devono essere scelte SRC e DST:\n[b]-SRC[/b]: cartella più aggiornata, verrà usata come indicazione\n[b]-DST[/b]: cartella da aggiornare, qui verranno inserite tutte le modifiche\n\nI file presenti allo stesso percorso sia in SRC sia in DST verranno sovrascritti se hanno dimensione diversa, copiati se non sono presenti in SRC, inoltre tutte le cartelle in SRC ma non in DST vengono create con il loro relativo contenuto, file e cartelle (compreso il loro contenuto) in DST ma non in SRC verranno eliminati."
         font_size: FONT_SIZE * 0.45
         valign: "top"

@@ -1,0 +1,19 @@
+---
+action           ---> RIMUOVI FILE
+entity           ---> proof_of_enrollment_faru.pdf
+size             ---> 31.26 Kb
+destination_path ---> C:\test_ft\B\MYDIR\Olanda\Student Experience\proof_of_enrollment_faru.pdf
+
+***
+
+File da copiare: 0
+File da eliminare: 1
+Cartelle da creare: 0
+Cartelle da eliminare: 0
+Totale azioni: 1
+
+Dimensione totale dei file da spostare: 0 b
+Dimensione totale dei file da eliminare: 31.26 Kb
+
+Tempo di esecuzione analisi: 0.02 sec
+

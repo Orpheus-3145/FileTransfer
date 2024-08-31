@@ -1,0 +1,25 @@
+---
+action           ---> CREA CARTELLA
+entity           ---> A
+size             ---> 24.17 Mb
+source_path      ---> C:\test_ft\A
+destination_path ---> C:\test_ft
+---
+action           ---> RIMUOVI CARTELLA
+entity           ---> B
+size             ---> 24.17 Mb
+destination_path ---> C:\test_ft\B
+
+***
+
+File da copiare: 41
+File da eliminare: 41
+Cartelle da creare: 12
+Cartelle da eliminare: 12
+Totale azioni: 106
+
+Dimensione totale dei file da spostare: 24.17 Mb
+Dimensione totale dei file da eliminare: 24.17 Mb
+
+Tempo di esecuzione analisi: 0.02 sec
+

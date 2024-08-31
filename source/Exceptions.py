@@ -8,16 +8,6 @@ class AppException(Exception):
         return self.error_text
 
 
-class FileTransferAppError(Exception):
-    """Eccezione del modulo FileTransferApp.py """
-    def __init__(self, error_text):
-        super().__init__()
-        self.error_text = error_text  # creo la proprietà di classe per avere maggiori informazioni sull'errore verificatosi
-
-    def __str__(self):
-        return self.error_text
-
-
 class FileTransferError(Exception):
     """Eccezione del modulo FileTransfer.py """
     def __init__(self, error_text):
@@ -26,6 +16,15 @@ class FileTransferError(Exception):
 
     def __str__(self):
         return self.error_text
+
+
+class StateError(FileTransferError):
+    """in caso di azione eseguita nello stato errato"""
+    pass
+
+
+class PathError(FileTransferError):
+    pass
 
 
 class SelectingFoldersError(FileTransferError):

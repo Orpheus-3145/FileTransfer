@@ -1,0 +1,115 @@
+08/17/2024 22:18:59 | INFO      | ################################################################################
+08/17/2024 22:18:59 | INFO      | app avviata
+08/17/2024 22:18:59 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 22:18:59 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 22:21:01 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 22:21:08 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 22:21:10 | ERROR     | [FileTransfer   ]: errore - errore durante la lettura del percorso C:\users\franc\Desktop\prova\repo: No such file or directory
+08/17/2024 22:26:09 | INFO      | ################################################################################
+08/17/2024 22:26:09 | INFO      | app avviata
+08/17/2024 22:26:09 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 22:26:09 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 22:26:11 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 22:26:13 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 22:26:16 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 22:27:53 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 22:28:04 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 22:29:49 | INFO      | ################################################################################
+08/17/2024 22:29:49 | INFO      | app avviata
+08/17/2024 22:29:49 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 22:29:49 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 22:29:51 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 22:29:52 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 22:29:54 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 22:30:07 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+08/17/2024 22:30:07 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 22:30:07 | INFO      | app chiusa
+08/17/2024 22:30:07 | INFO      | ################################################################################
+08/17/2024 22:39:08 | INFO      | ################################################################################
+08/17/2024 22:39:08 | INFO      | app avviata
+08/17/2024 22:39:08 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 22:39:08 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 22:39:13 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 22:39:14 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 22:39:30 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 22:59:05 | INFO      | ################################################################################
+08/17/2024 22:59:05 | INFO      | app avviata
+08/17/2024 22:59:05 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 22:59:05 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 22:59:09 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 22:59:10 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 23:00:09 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+08/17/2024 23:00:09 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:00:09 | INFO      | app chiusa
+08/17/2024 23:00:09 | INFO      | ################################################################################
+08/17/2024 23:00:10 | INFO      | ################################################################################
+08/17/2024 23:00:10 | INFO      | app avviata
+08/17/2024 23:00:10 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:00:10 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:00:15 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 23:00:16 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 23:02:12 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+08/17/2024 23:02:12 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:02:12 | INFO      | app chiusa
+08/17/2024 23:02:12 | INFO      | ################################################################################
+08/17/2024 23:02:14 | INFO      | ################################################################################
+08/17/2024 23:02:14 | INFO      | app avviata
+08/17/2024 23:02:14 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:02:14 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:02:18 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 23:10:38 | INFO      | [FileTransfer   ]: analisi terminata
+08/17/2024 23:22:39 | INFO      | ################################################################################
+08/17/2024 23:22:39 | INFO      | app avviata
+08/17/2024 23:22:39 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:22:39 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:22:52 | INFO      | ################################################################################
+08/17/2024 23:22:52 | INFO      | app avviata
+08/17/2024 23:22:52 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:22:52 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:23:46 | INFO      | ################################################################################
+08/17/2024 23:23:46 | INFO      | app avviata
+08/17/2024 23:23:46 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:23:46 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:23:51 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 23:27:41 | INFO      | ################################################################################
+08/17/2024 23:27:41 | INFO      | app avviata
+08/17/2024 23:27:41 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:27:41 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:27:49 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 23:28:37 | INFO      | ################################################################################
+08/17/2024 23:28:37 | INFO      | app avviata
+08/17/2024 23:28:37 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:28:37 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:28:42 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 23:28:57 | INFO      | ################################################################################
+08/17/2024 23:28:57 | INFO      | app avviata
+08/17/2024 23:28:57 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:28:57 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:29:19 | INFO      | ################################################################################
+08/17/2024 23:29:19 | INFO      | app avviata
+08/17/2024 23:29:19 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:29:19 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:30:18 | INFO      | ################################################################################
+08/17/2024 23:30:18 | INFO      | app avviata
+08/17/2024 23:30:18 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:30:18 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:30:23 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 23:32:08 | INFO      | ################################################################################
+08/17/2024 23:32:08 | INFO      | app avviata
+08/17/2024 23:32:08 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:32:08 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:32:13 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 23:32:43 | INFO      | ################################################################################
+08/17/2024 23:32:43 | INFO      | app avviata
+08/17/2024 23:32:43 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:32:43 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:32:48 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/17/2024 23:33:55 | INFO      | ################################################################################
+08/17/2024 23:33:55 | INFO      | app avviata
+08/17/2024 23:33:55 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/17/2024 23:33:55 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/17/2024 23:33:59 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/18/2024 23:01:19 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+08/18/2024 23:01:19 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/18/2024 23:01:19 | INFO      | app chiusa
+08/18/2024 23:01:19 | INFO      | ################################################################################
