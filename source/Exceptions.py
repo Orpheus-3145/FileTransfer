@@ -23,8 +23,8 @@ class StateError(FileTransferError):
     pass
 
 
-class PathError(FileTransferError):
-    pass
+# class PathError(FileTransferError):
+#     pass
 
 
 class SelectingFoldersError(FileTransferError):
@@ -32,9 +32,9 @@ class SelectingFoldersError(FileTransferError):
     pass
 
 
-class ComparingFoldersError(FileTransferError):
-    """Eccezione sollevata in fase di analisi di SRC e DST"""
-    pass
+# class ComparingFoldersError(FileTransferError):
+#     """Eccezione sollevata in fase di analisi di SRC e DST"""
+#     pass
 
 
 class TransferingFilesError(FileTransferError):
@@ -42,10 +42,13 @@ class TransferingFilesError(FileTransferError):
     pass
 
 
-class ParserError(FileTransferError):
-    """Eccezione sollevata in caso di errore relativo ad operazioni di accesso/modifica al file compare tramite un'istanza
-    di CompareFileParser()"""
+class CompareFileError(FileTransferError):
     pass
+
+# class ParserError(FileTransferError):
+#     """Eccezione sollevata in caso di errore relativo ad operazioni di accesso/modifica al file compare tramite un'istanza
+#     di CompareFileParser()"""
+#     pass
 
 
 class ToolsUtilitiesError(Exception):

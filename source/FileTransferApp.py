@@ -149,19 +149,8 @@ class FileTransferApp(App):
         Clock.schedule_once(popup_to_close.dismiss, 0)                      # chiudo il popup precedentemente aperto (AnalyzerPopup)
         Clock.schedule_once(partial(self.transfer, transfering_popup), 1)   # avvio il trasferimento
 
-    def transfer(self, popup_to_close, *args):
-        """Metodo per eseguire le azioni di allineamento di DST a SRC, wrappa FileTransfer.transfer(), al termine apre
-        il popup informativo sull'avvenuto trasferimento, avvisando nel caso di errori verificatisi"""
-        popup_to_close.dismiss()
-        try:
-            errors_occurred = self.ft.transfer()
-        except TransferingFilesError as error:
-            ErrorPopup(error_text=str(error)).open()
-        else:
-            if errors_occurred is False:
-                TransferPopup().open()
-            else:
-                ErrorPopup(error_text="Il trasferimento è terminato, tuttavia si sono verificati alcuni errori, controlla nel log per ulteriori dettagli").open()
+    def transfer(self):
+        return self.ft.read_compare_file()
 
     def refresh(self):
         self.ft.refresh()
@@ -170,7 +159,7 @@ class FileTransferApp(App):
         """Apre il file compare.txt"""
         try:
             self.ft.inspect_compare_file()
-        except ComparingFoldersError as error:
+        except OSError as error:
             ErrorPopup(error_text=str(error)).open()
 
     def on_stop(self):

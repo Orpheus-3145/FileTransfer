@@ -335,3 +335,23 @@
 08/31/2024 04:48:38 | INFO      | [FileTransfer   ]: ********************************************************************************
 08/31/2024 04:48:38 | INFO      | app chiusa
 08/31/2024 04:48:38 | INFO      | ################################################################################
+08/31/2024 04:57:19 | INFO      | ################################################################################
+08/31/2024 04:57:19 | INFO      | app avviata
+08/31/2024 04:57:19 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/31/2024 04:57:19 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/31/2024 04:57:22 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/31/2024 04:57:22 | INFO      | [FileTransfer   ]: file D:\My Documents\INFO\Python\Projects\File Transfer\FileTransfer\compare\20240831_compare_34.txt creato
+08/31/2024 04:58:27 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+08/31/2024 04:58:27 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/31/2024 04:58:27 | INFO      | app chiusa
+08/31/2024 04:58:27 | INFO      | ################################################################################
+08/31/2024 05:09:50 | INFO      | ################################################################################
+08/31/2024 05:09:50 | INFO      | app avviata
+08/31/2024 05:09:50 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/31/2024 05:09:50 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+08/31/2024 05:09:56 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+08/31/2024 05:09:56 | INFO      | [FileTransfer   ]: file D:\My Documents\INFO\Python\Projects\File Transfer\FileTransfer\compare\20240831_compare_35.txt creato
+08/31/2024 05:25:20 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+08/31/2024 05:25:20 | INFO      | [FileTransfer   ]: ********************************************************************************
+08/31/2024 05:25:20 | INFO      | app chiusa
+08/31/2024 05:25:20 | INFO      | ################################################################################

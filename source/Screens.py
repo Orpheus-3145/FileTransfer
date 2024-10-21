@@ -41,7 +41,15 @@ class MainScreen(Screen):
             AnalyzerPopup().open()
 
     def start_transfer(self):
-        pass
+        try:
+            everything_ok = App.get_running_app().transfer()
+        except TransferingFilesError as error:
+            ErrorPopup(error_text=str(error)).open()
+        else:
+            if everything_ok is True:
+                TransferPopup().open()
+            else:
+                ErrorPopup(error_text="Il trasferimento è terminato, tuttavia si sono verificati alcuni errori, controlla il file compare").open()
 
     def refresh(self):
         App.get_running_app().refresh()

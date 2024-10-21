@@ -1,5 +1,4 @@
 #:import Factory kivy.factory.Factory
-#:import get_perc_font Tools.get_perc_font
 
 <SetFolderPopup>:
     size_hint: 0.7, 0.8
@@ -148,7 +147,7 @@
             color: WHITE_RGBA
             background_color: RED_RGBA
             size_hint_y: 0.55
-            font_size: FONT_SIZE * get_perc_font(len(root.error_text))
+            font_size_scale: 0.3
 
         DefaultButton:
             text: "CHIUDI"

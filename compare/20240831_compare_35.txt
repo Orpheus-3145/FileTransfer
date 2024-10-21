@@ -1,0 +1,204 @@
+REMOVE DIRECTORY (R)
+directory        ---> Tom Rider
+source           ---> D:\test_ft\B\TEST
+
+COPY DIRECTORY
+directory        ---> Age of Empires 3 asian dynasties
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> Age of Empires III.docx
+size             ---> 102.10 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 103.50 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY DIRECTORY
+directory        ---> artwork
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY FILE
+file             ---> aoe.jpg
+size             ---> 52.05 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\artwork
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\artwork
+
+COPY FILE
+file             ---> aoe17.jpg
+size             ---> 258.00 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\artwork
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\artwork
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 28.50 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\artwork
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\artwork
+
+COPY DIRECTORY
+directory        ---> screenshot
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY FILE
+file             ---> aoe1.jpg
+size             ---> 149.71 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe10.jpg
+size             ---> 97.50 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe11.jpg
+size             ---> 179.53 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe12.jpg
+size             ---> 151.12 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe13.jpg
+size             ---> 181.12 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe14.jpg
+size             ---> 154.85 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe15.jpg
+size             ---> 161.57 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe16.jpg
+size             ---> 351.59 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe18.jpg
+size             ---> 373.75 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe2.jpg
+size             ---> 189.18 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe3.jpg
+size             ---> 184.93 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe4.jpg
+size             ---> 158.91 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe5.jpg
+size             ---> 158.83 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe6.jpg
+size             ---> 180.72 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe7.jpg
+size             ---> 181.87 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe8.jpg
+size             ---> 130.12 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> aoe9.jpg
+size             ---> 121.13 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY FILE
+file             ---> Thumbs.db
+size             ---> 77.00 Kb
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\screenshot
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\screenshot
+
+COPY DIRECTORY
+directory        ---> sdfsdf
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties
+
+COPY FILE
+file             ---> adasd.txt
+size             ---> 0 b
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\sdfsdf
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\sdfsdf
+
+COPY FILE
+file             ---> dfsf.txt
+size             ---> 0 b
+source           ---> D:\test_ft\A\TEST\Age of Empires 3 asian dynasties\sdfsdf
+destination      ---> D:\test_ft\B\TEST\Age of Empires 3 asian dynasties\sdfsdf
+
+COPY DIRECTORY
+directory        ---> Assassin Creed 2
+source           ---> D:\test_ft\A\TEST
+destination      ---> D:\test_ft\B\TEST
+
+COPY FILE
+file             ---> Assassin Creed 2.docx
+size             ---> 15.16 Kb
+source           ---> D:\test_ft\A\TEST\Assassin Creed 2
+destination      ---> D:\test_ft\B\TEST\Assassin Creed 2
+
+REMOVE FILE
+file             ---> Far Cry 2.docx
+size             ---> 16.49 Kb
+source           ---> D:\test_ft\B\TEST\Far Cry 2
+
+COPY FILE
+file             ---> Uncharted.doc
+size             ---> 26.50 Kb
+source           ---> D:\test_ft\A\TEST\Uncharted drake's fortune
+destination      ---> D:\test_ft\B\TEST\Uncharted drake's fortune
+
+***
+
+File da copiare: 27, size: 3.68 Mb
+File da eliminare: 1
+Cartelle da creare: 5
+Cartelle da eliminare: 1
+Totale azioni: 34
+

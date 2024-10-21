@@ -1,0 +1,42 @@
+09/04/2024 04:56:31 | INFO      | ################################################################################
+09/04/2024 04:56:31 | INFO      | app avviata
+09/04/2024 04:56:31 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 04:56:31 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+09/04/2024 04:56:31 | ERROR     | caricamento front-end - errore in D:\My Documents\INFO\Python\Projects\File Transfer\FileTransfer\kv\Popups.kv - module 'Tools' has no attribute 'get_perc_font'
+09/04/2024 04:58:22 | INFO      | ################################################################################
+09/04/2024 04:58:22 | INFO      | app avviata
+09/04/2024 04:58:22 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 04:58:22 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+09/04/2024 04:58:51 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+09/04/2024 04:59:09 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+09/04/2024 05:12:11 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+09/04/2024 05:12:11 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 05:12:11 | INFO      | app chiusa
+09/04/2024 05:12:11 | INFO      | ################################################################################
+09/04/2024 05:12:13 | INFO      | ################################################################################
+09/04/2024 05:12:13 | INFO      | app avviata
+09/04/2024 05:12:13 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 05:12:13 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+09/04/2024 05:12:15 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+09/04/2024 05:14:29 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+09/04/2024 05:14:29 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 05:14:29 | INFO      | app chiusa
+09/04/2024 05:14:29 | INFO      | ################################################################################
+09/04/2024 05:14:31 | INFO      | ################################################################################
+09/04/2024 05:14:31 | INFO      | app avviata
+09/04/2024 05:14:31 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 05:14:31 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+09/04/2024 05:14:33 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+09/04/2024 05:14:33 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 05:14:33 | INFO      | app chiusa
+09/04/2024 05:14:33 | INFO      | ################################################################################
+09/04/2024 05:14:42 | INFO      | ################################################################################
+09/04/2024 05:14:42 | INFO      | app avviata
+09/04/2024 05:14:42 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 05:14:42 | INFO      | [FileTransfer   ]: creata un'istanza di FileTransfer
+09/04/2024 05:14:45 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+09/04/2024 05:16:49 | INFO      | [FileTransfer   ]: SRC e DST selezionati correttamente
+09/04/2024 05:16:54 | INFO      | [FileTransfer   ]: chiusura istanza di FileTransfer
+09/04/2024 05:16:54 | INFO      | [FileTransfer   ]: ********************************************************************************
+09/04/2024 05:16:54 | INFO      | app chiusa
+09/04/2024 05:16:54 | INFO      | ################################################################################
