@@ -1,0 +1,86 @@
+
+# of the project
+logs/
+compare/
+backup_old/
+versions/
+FileTransfer_old/
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+eggs-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Pyenv
+.python-version
+
+# venv
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+env.bak/
+
+# Spyder project settings
+.spyproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+
+# Pytest
+.cache/
+
+# Coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Sphinx documentation
+docs/_build/
+
+# virtualenv
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Other
+*.log
+*.pot
+*.mo
+*.sqlite
+*.db
+
+# MacOS
+.DS_Store

@@ -1,0 +1,33 @@
+|V|# config.py -> config.ini (terminare)																																												
+|V|# fix al tempo di esecuzione																														
+|V|# aggiungere sezione in cui si modifica il livello del log																																							
+|V|# file test.py/kv																																																	
+|V|# il file compare che viene letto deve essere spostato anch'esso																																					
+|V|# fix apertura doppio popup di errore se non seleziono i percorsi da confrontare																																	
+|V|# corregggere metodo on_new_drive() di SetDrivePopup, il test di accesso per verifica bitlocker non può essere fatto con il metodo os.chdir()																		
+|V|# convertire secondi passati per il trasferimento in minuti/ore																																						
+|V|# da gestire correttamente l'eccezione di accesso disco protetto da bitlocker																																		
+|V|# config.ini deve essere impostato in conseguenza del pc che si usa																																					
+|V|# spostare la posizione dell'app (mettere nel disco D) per evitare che il log della sessione dell'app in uso non venga cancellato quando si allinea disco esterno --> disco interno (in cui è presente l'app)		
+|V|# font size dinamico in popup di errore
+|V|# non apre più popup 'TRASFERIMENTO IN CORSO'			
+|V|# opzione CREA/RIMUOVI CARTELLA e tutto il contenuto --> se la cartella esiste creo tutti i file e le cartelle ivi contenute in automatico devo rimuovere dalla lista anche tutte le sotto cartelle della cartella creata, perchè le ho già create																																							
+|V|# chiarire il discorso creazione/eliminazione cartelle che differiscono unicamente per una qualche lettera con case diverso (e.g. C:\App e C:\app)
+|V|# nelle creazioni/eliminazioni massive bisogna tenere conto dei file/cartelle creati/eliminati nel progressivi da inserire alla fine del file compare
+|V|# aggiungere nota (tramite try-except di anomalia) se la creazione del file compare termina in modo imprevisto
+|X|# calcolo dimensione totale cartella da creare/eliminare e file totale da rimuovere e usare proprietà
+|V|# la conta dei byte (o la formattazione) non è corretta
+|V|# aggiornare documentazione
+|V|# aggiungere dimensione in byte ad ogni file/cartella
+|V|# si apre due volte il popup di errore!!
+|V|# aggiungere il size del font come variabile del file ini
+|X|# il file compare viene letto direttamente in kivy
+|V|# mettere il separatore all'ultima entità letta in compare?
+|V|# gestire eccezione quando rimuovo disco durante analisi (doppia apertura di popup errore interno consulta log)
+|V|# le eccezioni non prese non vengono scritte nel file compare in caso di errore
+|V|# terminare i TODO
+|V|# correggere i caratteri problematici, succede su app compilata o eseguita direttamente da prompt, non con Pycharm (capire esattamente che comando viene usato qui per eseguire l'app)	(bisogna usare python.exe dell'interprete scelto: ...\venv\Scripts\python.exe)
+|V|# notifica al termine di analisi e trasferimento
+|X|# check per sveltire
+|V|# corretto ordine apertura/chiusura popup
+|V|# ri-check documentazione
